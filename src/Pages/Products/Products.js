@@ -3,10 +3,11 @@ import Data from "./Data";
 import Card from "./Card";
 import Buttons from "./Buttons";
 import '../BusinessSegment/Segment.css';
-// import { useEffect } from "react";
 
 const Products = () => {
-    const [item, setItem] = useState(Data);
+    const newData = Data.slice(0, 8);
+    // const [item, setItem] = useState(Data);
+    const [item, setItem] = useState(newData);
 
     const menuItems = [...new Set(Data.map((Val) => Val.category))];
     // const sortMenuItems = menuItems.slice(0, 11)
@@ -20,7 +21,7 @@ const Products = () => {
 
     return (
         <>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <h1 className="col-12 text-center fw-bold section-title">Our Products <br /> And Sevices</h1>
                     <Buttons

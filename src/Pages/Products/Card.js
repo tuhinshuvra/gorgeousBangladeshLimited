@@ -1,6 +1,5 @@
 import React from "react";
-import productImage from '../../assets/images/products/fabric.png';
-
+import './Product.css'
 const Card = ({ item }) => {
 
     return (
@@ -9,13 +8,9 @@ const Card = ({ item }) => {
                 <div className="row justify-content-center">
                     {item.map((Val) => {
                         return (
-                            <div
-                                // className="col-md-3 col-sm-6 card my-2 py-2 border-0 rounded-5"
-                                className="col-md-3 col-sm-6 card my-2 py-2 border-0 rounded-5"
-                                key={Val.id}
-                            >
-                                <div className="col-lg-10 mx-auto">
-                                    <div className="card-img-top text-center">
+                            <div className="col-lg-3  my-2 py-2 border-0 rounded-5" key={Val.id}>
+                                <div className="col-lg-10">
+                                    <div className="">
                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                     </div>
                                 </div>
