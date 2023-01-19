@@ -8,7 +8,7 @@ const Card = ({ item }) => {
                     {item.map((Val) => {
                         return (
                             <div
-                                className="col-md-2 col-sm-3 card my-2 py-2 border-0 rounded-5"
+                                className="col-md-3 col-sm-6 card my-2 py-2 border-0 rounded-5"
                                 key={Val.id}
                             >
                                 <div className="card-img-top text-center ">

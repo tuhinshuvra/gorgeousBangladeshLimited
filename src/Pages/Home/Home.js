@@ -1,11 +1,11 @@
 import React from 'react';
 import Products from '../Products/Products';
-import Services from '../Services/Services';
+import BusinessSegment from '../BusinessSegment/BusinessSegment';
 
 const Home = () => {
     return (
         <div>
-            <Services></Services>
+            <BusinessSegment></BusinessSegment>
             <Products></Products>
 
         </div>
