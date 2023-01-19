@@ -5,6 +5,8 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Login from "../Login/Login";
 import WrongRoute from "../Shared/ErrorDisplay/WrongRoute";
+import Products from "../Products/Products";
+import Services from "../Services/Services";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
+            },
+            {
+                path: '/products',
+                element: <Products></Products>
+            },
+            {
+                path: '/services',
+                element: <Services></Services>
             },
             {
                 path: '/about',
