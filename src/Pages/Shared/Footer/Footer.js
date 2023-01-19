@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FooterLogo from '../../../assets/images/logo/carreers-bangladesh-small.png'
+import FooterLogo from '../../../assets/images/logo/gbl-logo.png';
 
 const Footer = () => {
     return (
