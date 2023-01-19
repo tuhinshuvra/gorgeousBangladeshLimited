@@ -28,25 +28,25 @@ const Data = [
   {
     id: "1",
     title: "Clinker",
-    category: "Cement Industry Materials",
+    category: "Cement Materials",
     img: "https://i.ibb.co/SskzWpw/Clinker.png"
   },
   {
     id: "2",
     title: "fly_ash",
-    category: "Cement Industry Materials",
+    category: "Cement Materials",
     img: "https://i.ibb.co/B2qFJk9/fly-ash.png"
   },
   {
     id: "3",
     title: "Lime_stone",
-    category: "Cement Industry Materials",
+    category: "Cement Materials",
     img: "https://i.ibb.co/DD438Qc/Lime-stone.png ",
   },
   {
     id: "4",
     title: "gypsum",
-    category: "Cement Industry Materials",
+    category: "Cement Materials",
     img: "https://i.ibb.co/xgJ5YSJ/gypsum.png",
   },
   {
@@ -144,7 +144,7 @@ const Data = [
   {
     id: "20",
     title: "agro-machinaries",
-    category: "Machineries",
+    category: "Transport",
     img: "https://i.ibb.co/PYBf198/agro-machinaries.png",
   },
   {
@@ -156,7 +156,7 @@ const Data = [
   {
     id: "22",
     title: "CommercialVehicles",
-    category: "Machineries",
+    category: "Transport",
     img: "https://i.ibb.co/mJj4Xcy/electric-scooter.png",
   },
   {

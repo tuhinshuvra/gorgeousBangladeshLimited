@@ -18,14 +18,6 @@ const Products = () => {
         setItem(newItem);
     };
 
-
-
-    // useEffect(() => {
-    //     fetch('product_list.json')
-    //         .then(response => response.json())
-    //         .then(data => setItem(data))
-    // }, [])
-
     return (
         <>
             <div className="container-fluid">
