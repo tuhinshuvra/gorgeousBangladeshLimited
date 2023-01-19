@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "title": "Clinker",
+        "category": "Cement Industry Materials",
+        "price": "$1",
+        "img": "https://ibb.co/b3p8N2n"
+    },
+    {
+        "id": "2",
+        "title": "Upma",
+        "category": "Cement Industry Materials",
+        "price": "$1",
+        "img": "https://ibb.co/hy9sS4H"
+    },
+    {
+        "id": "3",
+        "title": "Cheela",
+        "category": "Cement Industry Materials",
+        "price": "$1",
+        "img": "https://ibb.co/56rL0kM"
+    },
+    {
+        "id": "4",
+        "title": "Channa Kulcha",
+        "category": "RMG Sector",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-04/chana-kulcha_625x350_41429707001.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Egg Curry",
+        "category": "RMG Sector",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-11/goan-egg-curry_620x350_41511515276.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Paneer Aachari",
+        "category": "RMG Sector",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-04/paneer_625x350_61429707960.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Fish Fry",
+        "category": "Commercial Transport",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-06/indian-Commercial Transport_625x350_41434360207.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Dum Alloo",
+        "category": "Commercial Transport",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-06/indian-Commercial Transport_625x350_51434362664.jpg"
+    },
+    {
+        "id": "9",
+        "title": "Malai Kofta",
+        "category": "Commercial Transport",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    },
+    {
+        "id": "11",
+        "title": "Dum Alloo",
+        "category": "Power Solution",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-06/indian-Commercial Transport_625x350_51434362664.jpg"
+    },
+    {
+        "id": "12",
+        "title": "Malai Kofta",
+        "category": "Power Solution",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    },
+    {
+        "id": "13",
+        "title": "Malai Kofta",
+        "category": "Power Solution",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    },
+    {
+        "id": "14",
+        "title": "Dum Alloo",
+        "category": "Agro and Foods",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-06/indian-Commercial Transport_625x350_51434362664.jpg"
+    },
+    {
+        "id": "15",
+        "title": "Malai Kofta",
+        "category": "Agro and Foods",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    },
+    {
+        "id": "16",
+        "title": "Malai Kofta",
+        "category": "Agro and Foods",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    },
+    {
+        "id": "17",
+        "title": "Dum Alloo",
+        "category": "Logistics and Security",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-06/indian-Commercial Transport_625x350_51434362664.jpg"
+    },
+    {
+        "id": "18",
+        "title": "Malai Kofta",
+        "category": "Logistics and Security",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    },
+    {
+        "id": "19",
+        "title": "Malai Kofta",
+        "category": "Logistics and Security",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2015-06/indian-Commercial Transport_625x350_51434362664.jpg"
+    },
+    {
+        "id": "20",
+        "title": "Malai Kofta",
+        "category": "Logistics and Security",
+        "price": "$1",
+        "img": "https://i.ndtvimg.com/i/2017-10/makhmali-kofte_620x350_51508918483.jpg"
+    }
+]

@@ -3,12 +3,13 @@ import Data from "./Data";
 import Card from "./Card";
 import Buttons from "./Buttons";
 import '../BusinessSegment/Segment.css';
+// import { useEffect } from "react";
 
-const App = () => {
+const Products = () => {
     const [item, setItem] = useState(Data);
 
     const menuItems = [...new Set(Data.map((Val) => Val.category))];
-    const sortMenuItems = menuItems.slice(0, 11)
+    // const sortMenuItems = menuItems.slice(0, 11)
 
     const filterItem = (curcat) => {
         const newItem = Data.filter((newVal) => {
@@ -16,6 +17,15 @@ const App = () => {
         });
         setItem(newItem);
     };
+
+
+
+    // useEffect(() => {
+    //     fetch('product_list.json')
+    //         .then(response => response.json())
+    //         .then(data => setItem(data))
+    // }, [])
+
     return (
         <>
             <div className="container-fluid">
@@ -24,7 +34,7 @@ const App = () => {
                     <Buttons
                         filterItem={filterItem}
                         setItem={setItem}
-                        menuItems={sortMenuItems}
+                        menuItems={menuItems}
                     />
                     <Card item={item} />
                 </div>
@@ -33,4 +43,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Products;
