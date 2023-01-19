@@ -9,7 +9,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
                     <div className="btn-group" role="group" aria-label="Basic outlined example">
 
                         <button
-                            className="btn btn-outline-primary mx-1"
+                            className=" btn btn-outline-primary fw-bold btn-sm"
                             onClick={() => filterItem(Val)}
                             key={id}
                         >{Val}
@@ -18,7 +18,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
                 );
             })}
             <button
-                className="btn btn-outline-primary mx-4"
+                className="btn btn-outline-primary ms-2 "
                 onClick={() => setItem(Data)}
             > All
             </button>

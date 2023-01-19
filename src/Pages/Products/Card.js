@@ -14,7 +14,7 @@ const Card = ({ item }) => {
                                 className="col-md-3 col-sm-6 card my-2 py-2 border-0 rounded-5"
                                 key={Val.id}
                             >
-                                <div className="col-lg-10">
+                                <div className="col-lg-10 mx-auto">
                                     <div className="card-img-top text-center">
                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                     </div>
