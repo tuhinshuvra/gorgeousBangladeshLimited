@@ -14,7 +14,7 @@ const SegmentCard = ({ item }) => {
 
                                     {(Val.id > 0 && Val.id < 3) ? <>
 
-                                        <div className="row">
+                                        <div className="row ">
                                             <div className=" col-lg-6 ">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>

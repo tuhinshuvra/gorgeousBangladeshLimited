@@ -2,6 +2,27 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    /* width: 100%; */
-    /* height: 90%; */
+}
+
+.wrapper {
+    position: relative;
+    width: 210px;
+    transition: all 200ms ease-in-out;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 1000ms ease-in-out;
+}
+
+img {
+    transition: all 1000ms ease-in-out;
+}
+
+.wrapper:hover img {
+    transform: scale(2);
+    object-position: bottom;
 }
