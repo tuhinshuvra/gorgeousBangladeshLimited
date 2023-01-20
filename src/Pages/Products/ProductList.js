@@ -24,7 +24,7 @@
 
 
 
-const Data = [
+const ProductList = [
   {
     id: "1",
     title: "Clinker",
@@ -169,4 +169,4 @@ const Data = [
 
 ];
 
-export default Data;
+export default ProductList;

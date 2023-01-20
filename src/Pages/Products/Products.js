@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import Data from "./Data";
-import Card from "./Card";
+import ProductList from "./ProductList";
+import ProductDisplay from "./ProductDisplay";
 import Buttons from "./Buttons";
 import '../BusinessSegment/Segment.css';
 
 const Products = () => {
-    const newData = Data.slice(0, 8);
-    const [item, setItem] = useState(newData);
+    const newProductDisplay = ProductList.slice(0, 8);
+    const [item, setItem] = useState(newProductDisplay);
 
-    const menuItems = [...new Set(Data.map((Val) => Val.category))];
+    const menuItems = [...new Set(ProductList.map((Val) => Val.category))];
 
     const filterItem = (curcat) => {
-        const newItem = Data.filter((newVal) => {
+        const newItem = ProductList.filter((newVal) => {
             return newVal.category === curcat;
         });
         setItem(newItem);
@@ -27,7 +27,7 @@ const Products = () => {
                         setItem={setItem}
                         menuItems={menuItems}
                     />
-                    <Card item={item} />
+                    <ProductDisplay item={item} />
                 </div>
             </div>
         </>

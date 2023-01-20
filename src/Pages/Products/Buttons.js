@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./Data";
+import ProductList from "./ProductList";
 import './Button.css';
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {
@@ -20,7 +20,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
             })}
             <button id="show_all"
                 className="btn btn-outline-primary ms-2 fw-bold"
-                onClick={() => setItem(Data)}
+                onClick={() => setItem(ProductList)}
             > Show All
             </button>
 
