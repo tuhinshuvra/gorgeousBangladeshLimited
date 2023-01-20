@@ -1,4 +1,4 @@
-/* .segment {
+.segment {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -6,4 +6,4 @@
 
 .section-title {
     margin: 100px 0px 40px 0px;
-} */
+}

@@ -6,11 +6,9 @@ import '../BusinessSegment/Segment.css';
 
 const Products = () => {
     const newData = Data.slice(0, 8);
-    // const [item, setItem] = useState(Data);
     const [item, setItem] = useState(newData);
 
     const menuItems = [...new Set(Data.map((Val) => Val.category))];
-    // const sortMenuItems = menuItems.slice(0, 11)
 
     const filterItem = (curcat) => {
         const newItem = Data.filter((newVal) => {
