@@ -9,13 +9,6 @@ const Segment = () => {
 
     const menuItems = [...new Set(Data.map((Val) => Val.category))];
 
-    const filterItem = (curcat) => {
-        const newItem = Data.filter((newVal) => {
-            return newVal.category === curcat;
-        });
-        setItem(newItem);
-    };
-
     return (
         <div className="container">
             <div className="row">
