@@ -6,7 +6,7 @@
 
 .wrapper {
     position: relative;
-    width: 210px;
+    /* width: 210px; */
     transition: all 200ms ease-in-out;
 }
 
@@ -14,7 +14,6 @@
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
-
     transition: all 1000ms ease-in-out;
 }
 

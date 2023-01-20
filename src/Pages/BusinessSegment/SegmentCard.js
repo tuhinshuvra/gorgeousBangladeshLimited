@@ -14,8 +14,8 @@ const SegmentCard = ({ item }) => {
 
                                     {(Val.id > 0 && Val.id < 3) ? <>
 
-                                        <div className="row ">
-                                            <div className=" col-lg-6 ">
+                                        <div className="row wrapper">
+                                            <div className=" col-lg-6 image-wrapper">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>
                                             <div className=" col-lg-6 ">
@@ -26,21 +26,21 @@ const SegmentCard = ({ item }) => {
                                         </div>
                                     </> : (Val.id > 2 && Val.id < 5) ? <>
 
-                                        <div className="row">
+                                        <div className="row wrapper">
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details}</p>
                                                 <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link>
                                             </div>
-                                            <div className=" col-lg-6 ">
+                                            <div className=" col-lg-6 image-wrapper ">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>
 
                                         </div>
                                     </> : (Val.id > 4 && Val.id < 7) ? <>
 
-                                        <div className="row">
-                                            <div className=" col-lg-6 ">
+                                        <div className="row wrapper">
+                                            <div className=" col-lg-6 image-wrapper">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>
                                             <div className=" col-lg-6 ">
