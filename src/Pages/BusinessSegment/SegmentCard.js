@@ -19,7 +19,7 @@ const SegmentCard = ({ item }) => {
                                             <div className=" col-lg-6 image-wrapper">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>
-                                            <div className=" col-lg-6 ">
+                                            <div className=" col-lg-6 my-lg-5 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details.slice(0, 100)}</p>
                                                 <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
@@ -28,7 +28,7 @@ const SegmentCard = ({ item }) => {
                                     </> : (Val.id > 2 && Val.id < 5) ? <>
 
                                         <div className="row wrapper">
-                                            <div className=" col-lg-6 ">
+                                            <div className=" col-lg-6 my-lg-5">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details.slice(0, 100)}</p>
                                                 {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
@@ -46,7 +46,7 @@ const SegmentCard = ({ item }) => {
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>
 
-                                            <div className=" col-lg-6">
+                                            <div className=" col-lg-6 my-lg-5">
                                                 {/* <div className=" d-flex flex-column justify-content-center align-items-center "> */}
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details.slice(0, 100)}</p>

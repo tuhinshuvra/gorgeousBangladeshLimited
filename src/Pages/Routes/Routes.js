@@ -30,12 +30,6 @@ const router = createBrowserRouter([
                 path: '/category/:categoryId',
                 element: <CatrgoryDetails></CatrgoryDetails>
             },
-
-            // {
-            //     path: '/services/:serviceId',
-            //     element: <ServiceDetails></ServiceDetails>,
-            //     loader: ({ params }) => fetch(`https://eclectronics-doctor-review.vercel.app/services/${params.serviceId}`)
-            // },
             {
                 path: '/about',
                 element: <About></About>
@@ -48,7 +42,7 @@ const router = createBrowserRouter([
                 path: '/login',
                 element: <Login></Login>
             },
-           
+
             {
                 path: '/contact',
                 element: <Contact></Contact>

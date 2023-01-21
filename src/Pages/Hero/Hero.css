@@ -1,6 +1,11 @@
 .hero_bg {
     background-image: url(../../assets/images/background/hero_bg.jpg);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
     width: 100%;
+}
+
+.about_img {
+    width: 86%;
+    height: 280px;
 }

@@ -1,12 +1,3 @@
-// https://i.ibb.co/zHRJ58B/Agro-and-Foods.png
-// https://i.ibb.co/QQnfTTV/Cement-Industry-Materials.png
-// https://i.ibb.co/9TMPsMW/Commercial-Transport.png
-// https://i.ibb.co/Bt2ZZ3S/Logistics-and-Security.png
-// https://i.ibb.co/7VrXJhD/Power-Solution.png
-// https://i.ibb.co/MZt0QkW/RMG-Sector.png
-
-
-
 const SegmentList = [
     {
         id: "1",
@@ -24,7 +15,7 @@ const SegmentList = [
         id: "3",
         category: "Commercial Transport",
         details: "Gorgeous Bangladesh engaged in the import and supply of commercial transport vehicles. These vehicles include trucks, buses, and other types of commercial vehicles that are used for transporting goods and passengers.We imports these vehicles from different manufacturers around the world.",
-        img: "https://i.ibb.co/9TMPsMW/Commercial-Transport.png"
+        img: "https://i.ibb.co/ZGgthR4/bus.jpg"
     },
     {
         id: "4",

@@ -3,7 +3,7 @@ import React from 'react';
 
 import CategoryOne from '../../assets/images/categories/Agro_and_Foods.png'
 import CategoryTwo from '../../assets/images/categories/Cement_Industry_Materials.png'
-import CategoryThree from '../../assets/images/categories/Commercial_Transport.png'
+import CategoryThree from '../../assets/images/categories/Commercial_Transport.JPG'
 import CategoryFour from '../../assets/images/categories/Logistics_and_Security.png'
 import CategoryFive from '../../assets/images/categories/Power_Solution.png'
 import CategorySix from '../../assets/images/categories/RMG_Sector.png'
