@@ -22,16 +22,7 @@ const SegmentCard = ({ item }) => {
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details}</p>
-                                                <Link to={Val.id} className=" text-decoration-none fw-bold">
-
-                                                    Explore More
-
-                                                    <div className=" d-none">
-                                                        <CatrgoryDetails key={Val.id} >
-                                                            details={Val.title}
-                                                        </CatrgoryDetails>
-                                                    </div>
-                                                </Link>
+                                                <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
                                         </div>
                                     </> : (Val.id > 2 && Val.id < 5) ? <>
@@ -40,7 +31,8 @@ const SegmentCard = ({ item }) => {
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details}</p>
-                                                <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link>
+                                                {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
+                                                <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
                                             <div className=" col-lg-6 image-wrapper ">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
@@ -56,7 +48,8 @@ const SegmentCard = ({ item }) => {
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details}</p>
-                                                <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link>
+                                                {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
+                                                <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
                                         </div>
 

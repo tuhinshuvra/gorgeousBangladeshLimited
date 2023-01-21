@@ -16,40 +16,40 @@ const Footer = () => {
                     <div className="col-6 col-md-2 mb-3">
                         <h5>Services</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Features</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Pricing</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">FAQs</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>HOT LINK</h5>
+                        <h5>Hot Link</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Features</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Pricing</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">FAQs</Link></li>
-                        </ul>
-                    </div>
-
-                    <div className="col-6 col-md-2 mb-3">
-                        <h5>Legal</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Features</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Pricing</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">FAQs</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
                         <h5>Legal</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Features</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">Pricing</Link></li>
-                            <li className="nav-item mb-2"><Link href="#" className="nav-link p-0 text-muted">FAQs</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-6 col-md-2 mb-3">
+                        <h5>Legal</h5>
+                        <ul className="nav flex-column">
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
                         </ul>
                     </div>
                 </div>

@@ -1,12 +1,10 @@
 import React from "react";
-import './Product.css'
 import { Link } from "react-router-dom";
+import './Product.css'
+
 const ProductDisplay = ({ item }) => {
 
-
-
     return (
-
         <div>
             <div className="row">
                 <div className="product my-3">
@@ -17,13 +15,15 @@ const ProductDisplay = ({ item }) => {
                                     title={Val.title}
                                 >
                                     <div className="bg-image image-wrapper">
-                                        <Link to="/category_details">  <img src={Val.img} alt={Val.title} className=" img-fluid rounded-4 " />
+                                        <img src={Val.img} alt={Val.title} className=" img-fluid rounded-4 " />
+                                        <Link to="/category_details">
                                             {/* <CatrgoryDetails
                                             >
                                                 details={Val.title}
                                             </CatrgoryDetails> */}
                                         </Link>
-                                        {/* <div class="title">{Val.title}</div> */}
+
+                                        <h6 class="title">{Val.title}</h6>
                                     </div>
 
                                 </div>

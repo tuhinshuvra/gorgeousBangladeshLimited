@@ -27,15 +27,15 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1 fw-bold" to="/services">Services</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1 fw-bold" to="/category_details">Category</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold" to="/about">About</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold" to="/contact">Contact</Link>
-                            </li>
+                            </li> */}
                             {/* <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold" to="/login">Login</Link>
                             </li> */}

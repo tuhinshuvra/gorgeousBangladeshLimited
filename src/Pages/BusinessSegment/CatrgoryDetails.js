@@ -1,10 +1,9 @@
 import React from 'react';
 
-const CatrgoryDetails = ({ details }) => {
+const CatrgoryDetails = () => {
     return (
         <div>
-            <h2>Category Details Section</h2>
-            {details}
+            <h2 className=' text-center my-lg-5'>Comming Soon <br /> Category Details Section</h2>
         </div>
     );
 };

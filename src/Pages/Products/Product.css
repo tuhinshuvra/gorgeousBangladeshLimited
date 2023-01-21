@@ -28,11 +28,10 @@ img {
 
 
 .title {
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgba(11, 138, 28, 0.261);
     /*positioned relative to parent div (container) */
     position: absolute;
-    /* bottom margin is 0 so that it
-coincides with container's bottom margin*/
+    /* bottom margin is 0 so that it coincides with container's bottom margin*/
     bottom: 0;
     color: white;
     width: 100%;
