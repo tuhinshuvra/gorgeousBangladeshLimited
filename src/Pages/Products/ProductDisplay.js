@@ -2,6 +2,8 @@ import React from "react";
 import './Product.css'
 const ProductDisplay = ({ item }) => {
 
+
+
     return (
 
         <div>
@@ -10,10 +12,14 @@ const ProductDisplay = ({ item }) => {
                     {item.map((Val) => {
                         return (
                             <div className="  " key={Val.id}>
-                                <div className=" col-lg-12 wrapper ">
+                                <div className=" col-lg-12 wrapper "
+                                    title={Val.title}
+                                >
                                     <div className="bg-image image-wrapper">
                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-4 " />
+                                        {/* <div class="title">{Val.title}</div> */}
                                     </div>
+
                                 </div>
                             </div>
                         );

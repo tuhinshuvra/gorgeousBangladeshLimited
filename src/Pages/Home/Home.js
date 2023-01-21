@@ -6,7 +6,7 @@ import Segment from '../BusinessSegment/Segment';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             <Hero></Hero>
             <Experience></Experience>
             <Segment></Segment>

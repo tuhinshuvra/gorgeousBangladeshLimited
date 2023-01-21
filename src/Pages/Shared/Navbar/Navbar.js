@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../../assets/images/logo/gbl-logo.png';
+import Logo from '../../../assets/images/logo/gbl_small_logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -33,9 +33,9 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold" to="/contact">Contact</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold" to="/login">Login</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

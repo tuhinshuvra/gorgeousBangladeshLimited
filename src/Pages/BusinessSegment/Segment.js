@@ -10,7 +10,7 @@ const Segment = () => {
     const menuItems = [...new Set(Data.map((Val) => Val.category))];
 
     return (
-        <div className="container">
+        <div className="container segment_bg">
             <div className="row">
                 <h1 className="col-12 text-center fw-bold section-title">Awesome<br /> Business Segment</h1>
                 <SegmentCard item={item} />

@@ -3,7 +3,7 @@ import ExperiencePhto from '../../assets/images/categories/Cement_Industry_Mater
 
 const Experience = () => {
     return (
-        <div>
+        <div className='product_bg'>
             <div className="col-lg-12 px-4 py-5">
                 <div className="row flex-lg-row-reverse   g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">

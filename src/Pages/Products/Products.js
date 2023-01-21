@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 import '../BusinessSegment/Segment.css';
 
 const Products = () => {
-    const newProductDisplay = ProductList.slice(0, 12);
+    const newProductDisplay = ProductList.slice(0, 10);
     const [item, setItem] = useState(newProductDisplay);
 
     const menuItems = [...new Set(ProductList.map((Val) => Val.category))];
@@ -18,9 +18,11 @@ const Products = () => {
     };
 
     return (
-        <>
-            <div className="container">
+        <div className=" product_bg ">
+            <div className="container ">
+                {/* <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="viewBox">    <path d="M0.00,49.98 C254.51,72.06 306.43,22.41 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" class="path"> </path></svg> */}
                 <div className="row">
+                    {/* <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="viewBox">    <path d="M0.00,49.98 C254.51,72.06 306.43,22.41 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" class="path"> </path></svg> */}
                     <h1 className="col-12 text-center fw-bold section-title">Our Products <br /> And Sevices</h1>
                     <Buttons
                         filterItem={filterItem}
@@ -30,7 +32,7 @@ const Products = () => {
                     <ProductDisplay item={item} />
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
