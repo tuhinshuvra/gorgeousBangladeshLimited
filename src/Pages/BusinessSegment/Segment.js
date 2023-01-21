@@ -16,10 +16,12 @@ const Segment = () => {
                 <SegmentCard item={item} />
 
                 <div className="d-flex justify-content-center mb-lg-3">
-                    <button className="btn btn-primary ms-2 "
+                    {/* <button className="btn btn-primary ms-2 " */}
+                    <button className="btn btn-success btn-lg px-4   rounded-pill fw-bold "
                         onClick={() => setItem(Data)}
                     > Show All
                     </button>
+                    {/* <button type="button" className="btn btn-success btn-lg px-4   rounded-pill fw-bold">Explore More</button> */}
                 </div>
             </div>
         </div>

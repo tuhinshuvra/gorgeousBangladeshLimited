@@ -1,6 +1,7 @@
 import React from "react";
 import ProductList from "./ProductList";
 import './Button.css';
+import { Button, ButtonGroup } from "react-bootstrap";
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {
     return (
@@ -10,11 +11,20 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
                     <div className="btn-group" role="group" aria-label="button-show">
 
                         <button
-                            className=" btn btn-outline-primary fw-bold btn-sm"
+                            className=" btn btn-outline-primary fw-bold btn-sm "
                             onClick={(hidebutton) => filterItem(Val)}
                             key={id}
                         >{Val}
                         </button>
+
+                        {/* <ButtonGroup variant="outlined" aria-label="outlined button group">
+                            <Button
+                                className=" btn btn-outline-primary fw-bold btn-sm"
+                                onClick={(hidebutton) => filterItem(Val)}
+                                key={id}
+                            >{Val}
+                            </Button>
+                        </ButtonGroup> */}
                     </div>
                 );
             })}

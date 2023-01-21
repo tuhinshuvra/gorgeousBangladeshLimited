@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'PumpOpti_Medium';
-  src: url(../src/assets/font/PumpOpti_Medium.otf);
+  font-family: 'ArthausBold';
+  src: url(font/ArthausBold.ttf);
   font-weight: bold;
 }
 
@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  font-family: 'PumpOpti_Medium';
+  font-family: 'ArthausBold';
 }
 
 code {

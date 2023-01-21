@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 import '../BusinessSegment/Segment.css';
 
 const Products = () => {
-    const newProductDisplay = ProductList.slice(0, 10);
+    const newProductDisplay = ProductList.slice(0, 12);
     const [item, setItem] = useState(newProductDisplay);
 
     const menuItems = [...new Set(ProductList.map((Val) => Val.category))];
