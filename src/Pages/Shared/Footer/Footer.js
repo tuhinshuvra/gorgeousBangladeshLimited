@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FooterLogo from '../../../assets/images/logo/gbl_small_logo.png';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="container product_bg">
+        <div className="container footer_bg">
             <footer className="pt-4">
                 <div className="row">
                     <div className="col-12 col-md-4 mb-3 d-flex  flex-column justify-content-center align-items-center">

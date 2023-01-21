@@ -21,7 +21,7 @@ const SegmentCard = ({ item }) => {
                                             </div>
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
-                                                <p>{Val.details}</p>
+                                                <p>{Val.details.slice(0, 100)}</p>
                                                 <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
                                         </div>
@@ -30,7 +30,7 @@ const SegmentCard = ({ item }) => {
                                         <div className="row wrapper">
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
-                                                <p>{Val.details}</p>
+                                                <p>{Val.details.slice(0, 100)}</p>
                                                 {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
                                                 <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
@@ -45,11 +45,14 @@ const SegmentCard = ({ item }) => {
                                             <div className=" col-lg-6 image-wrapper">
                                                 <img src={Val.img} alt={Val.title} className=" img-fluid rounded-3 " />
                                             </div>
-                                            <div className=" col-lg-6 ">
+
+                                            <div className=" col-lg-6">
+                                                {/* <div className=" d-flex flex-column justify-content-center align-items-center "> */}
                                                 <h3 className=" fw-bold">{Val.category}</h3>
-                                                <p>{Val.details}</p>
+                                                <p>{Val.details.slice(0, 100)}</p>
                                                 {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
                                                 <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
+                                                {/* </div> */}
                                             </div>
                                         </div>
 

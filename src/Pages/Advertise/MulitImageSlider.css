@@ -1,0 +1,10 @@
+.popular-location {
+    margin: 100px 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .popular-location {
+        margin: 50px 0;
+    }
+}

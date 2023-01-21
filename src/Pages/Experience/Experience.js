@@ -1,5 +1,5 @@
 import React from 'react';
-import ExperiencePhto from '../../assets/images/categories/Cement_Industry_Materials.png';
+// import ExperiencePhto from '../../assets/images/categories/Cement_Industry_Materials.png';
 
 import CategoryOne from '../../assets/images/categories/Agro_and_Foods.png'
 import CategoryTwo from '../../assets/images/categories/Cement_Industry_Materials.png'
@@ -22,7 +22,7 @@ const Experience = () => {
                         <div className=' my-0 py-0'>
                             <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="3000">
+                                    <div class="carousel-item active" data-bs-interval="2000">
                                         <img src={CategoryOne} class="d-block w-100 rounded-3 " alt="..." />
                                     </div>
                                     <div class="carousel-item" data-bs-interval="2000">
@@ -55,8 +55,15 @@ const Experience = () => {
                     </div>
                     <div className="col-lg-6  ">
                         <h1 className="display-5 fw-bold lh-1 mb-3">12+ Years <br /> of Experience</h1>
-                        <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nam vel excepturi, et labore assumenda suscipit soluta reprehenderit modi praesentium?
+                        <p className="lead">
+
+                            <p>Our business enterprise aims at the overall development of Bangladesh by undertaking entrepreneurship in multiple nation-building ventures.</p>
+                            {/* <br /> */}
+                            <p>Our services sections are  Agro and Foods, Cement Industry Materials, Commercial Transport, Logistics and Security, Power Solutions, RMG Sectors</p>
+                            {/* <br /><br /> */}
+                            <p>Our mission is, among others, to make employment opportunities, eliminate poverty, contribute to enhancing infrastructures at the national level, and finally lead Bangladesh toward development and prosperity.</p>
+
+
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                             {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Explore More</button> */}
