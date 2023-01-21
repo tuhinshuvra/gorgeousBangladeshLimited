@@ -7,6 +7,7 @@ import Login from "../Login/Login";
 import WrongRoute from "../Shared/ErrorDisplay/WrongRoute";
 import Products from "../Products/Products";
 import Segment from "../BusinessSegment/Segment";
+import CatrgoryDetails from "../Products/CatrgoryDetails";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: '/services',
                 element: <Segment></Segment>
+            },
+            {
+                path: '/category_details',
+                element: <CatrgoryDetails></CatrgoryDetails>
             },
             {
                 path: '/about',

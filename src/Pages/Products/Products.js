@@ -18,11 +18,10 @@ const Products = () => {
     };
 
     return (
-        <div className=" product_bg ">
-            <div className="container ">
-                {/* <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="viewBox">    <path d="M0.00,49.98 C254.51,72.06 306.43,22.41 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" class="path"> </path></svg> */}
+        <div className=" product_area">
+
+            <div className="container product_bg">
                 <div className="row">
-                    {/* <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="viewBox">    <path d="M0.00,49.98 C254.51,72.06 306.43,22.41 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" class="path"> </path></svg> */}
                     <h1 className="col-12 text-center fw-bold section-title">Our Products <br /> And Sevices</h1>
                     <Buttons
                         filterItem={filterItem}

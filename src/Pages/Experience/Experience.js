@@ -1,15 +1,16 @@
 import React from 'react';
 import ExperiencePhto from '../../assets/images/categories/Cement_Industry_Materials.png';
+import './Experience.css';
 
 const Experience = () => {
     return (
         <div className='product_bg'>
             <div className="col-lg-12 px-4 py-5">
                 <div className="row flex-lg-row-reverse   g-5 py-5">
-                    <div className="col-10 col-sm-8 col-lg-6">
+                    <div className="col-10 col-sm-8 col-lg-6  ">
                         <img src={ExperiencePhto} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6  ">
                         <h1 className="display-5 fw-bold lh-1 mb-3">12+ Years <br /> of Experience</h1>
                         <p className="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nam vel excepturi, et labore assumenda suscipit soluta reprehenderit modi praesentium?

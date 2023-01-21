@@ -1,5 +1,7 @@
 import React from "react";
 import './Product.css'
+import { Link } from "react-router-dom";
+import CatrgoryDetails from "./CatrgoryDetails";
 const ProductDisplay = ({ item }) => {
 
 
@@ -16,7 +18,12 @@ const ProductDisplay = ({ item }) => {
                                     title={Val.title}
                                 >
                                     <div className="bg-image image-wrapper">
-                                        <img src={Val.img} alt={Val.title} className=" img-fluid rounded-4 " />
+                                        <Link to="/category_details">  <img src={Val.img} alt={Val.title} className=" img-fluid rounded-4 " />
+                                            {/* <CatrgoryDetails
+                                            >
+                                                details={Val.title}
+                                            </CatrgoryDetails> */}
+                                        </Link>
                                         {/* <div class="title">{Val.title}</div> */}
                                     </div>
 
