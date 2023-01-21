@@ -1,7 +1,6 @@
 import React from "react";
 import './Product.css'
 import { Link } from "react-router-dom";
-import CatrgoryDetails from "./CatrgoryDetails";
 const ProductDisplay = ({ item }) => {
 
 

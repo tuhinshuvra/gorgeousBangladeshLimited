@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../Products/Product.css'
+import CatrgoryDetails from "./CatrgoryDetails";
 const SegmentCard = ({ item }) => {
 
     return (
@@ -21,7 +22,16 @@ const SegmentCard = ({ item }) => {
                                             <div className=" col-lg-6 ">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details}</p>
-                                                <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link>
+                                                <Link to={Val.id} className=" text-decoration-none fw-bold">
+
+                                                    Explore More
+
+                                                    <div className=" d-none">
+                                                        <CatrgoryDetails key={Val.id} >
+                                                            details={Val.title}
+                                                        </CatrgoryDetails>
+                                                    </div>
+                                                </Link>
                                             </div>
                                         </div>
                                     </> : (Val.id > 2 && Val.id < 5) ? <>

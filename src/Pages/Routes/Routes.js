@@ -7,7 +7,7 @@ import Login from "../Login/Login";
 import WrongRoute from "../Shared/ErrorDisplay/WrongRoute";
 import Products from "../Products/Products";
 import Segment from "../BusinessSegment/Segment";
-import CatrgoryDetails from "../Products/CatrgoryDetails";
+import CatrgoryDetails from "../BusinessSegment/CatrgoryDetails";
 
 const router = createBrowserRouter([
     {
