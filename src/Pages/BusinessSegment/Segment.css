@@ -12,8 +12,6 @@
 
     background-color: rgba(113, 209, 113, 0.185);
 
-
-
     /* background-color: rgb(0, 255, 85); */
     /* background-image: url(../../assets/images/background/wave.svg);
     background-repeat: no-repeat;
@@ -22,11 +20,11 @@
 }
 
 .segment_bg {
-    background-color: rgba(135, 207, 235, 0.171);
+    background-color: rgba(240, 153, 153, 0.064);
 }
 
 
-.waveContainer {
+/* .waveContainer {
     height: 100vh;
     overflow: hidden;
 }
@@ -38,5 +36,5 @@
 
 .path {
     stroke: none;
-    fill: rgb(237, 115, 115);
-}
+    fill: rgb(237, 115, 115); */
+/* } */

@@ -11,7 +11,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
                     <div className="btn-group" role="group" aria-label="button-show">
 
                         <button
-                            className=" btn btn-outline-primary fw-bold btn-sm "
+                            className=" btn btn-outline-success fw-bold btn-sm rounded-pill "
                             onClick={(hidebutton) => filterItem(Val)}
                             key={id}
                         >{Val}
@@ -29,7 +29,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
                 );
             })}
             <button id="show_all"
-                className="btn btn-outline-primary ms-2 fw-bold"
+                className="btn btn-outline-success rounded-pill ms-2 fw-bold"
                 onClick={() => setItem(ProductList)}
             > Show All
             </button>
