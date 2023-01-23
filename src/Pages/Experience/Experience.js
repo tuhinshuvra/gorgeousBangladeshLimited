@@ -9,6 +9,7 @@ import CategoryFive from '../../assets/images/categories/Power_Solution.png'
 import CategorySix from '../../assets/images/categories/RMG_Sector.png'
 
 import './Experience.css';
+import { Link } from 'react-router-dom';
 
 const Experience = () => {
     return (
@@ -67,7 +68,9 @@ const Experience = () => {
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                             {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Explore More</button> */}
-                            <button type="button" className="btn btn-success btn-lg px-4   rounded-pill fw-bold">Explore More</button>
+                            <Link to="/about">
+                                <button type="button" className="btn btn-success btn-lg px-4   rounded-pill fw-bold">Explore More</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
