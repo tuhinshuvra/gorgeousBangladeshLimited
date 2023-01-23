@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;*/
+    sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 code {
@@ -18,3 +18,10 @@ code {
 /* .product_bg {
   background-color: rgba(113, 209, 113, 0.185);
 } */
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  /* color: #0E3E1E; */
+  color: white;
+  font-size: 200px;
+}

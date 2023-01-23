@@ -9,3 +9,9 @@
     width: 86%;
     height: 280px;
 }
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0E3E1E;
+    /* font-size: 200px; */
+}
