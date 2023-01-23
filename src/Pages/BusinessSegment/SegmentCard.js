@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../Products/Product.css'
 import CatrgoryDetails from "./CatrgoryDetails";
+import '../Products/Product.css';
+
+
 const SegmentCard = ({ item }) => {
 
     return (
@@ -17,14 +19,14 @@ const SegmentCard = ({ item }) => {
 
                                         <div className="row ">
                                             <div className="col-lg-6 wrapper">
-                                                <div className="  image-wrapper">
+                                                <div className="image-wrapper">
                                                     <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                 </div>
                                             </div>
                                             <div className=" col-lg-6 my-auto">
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details.slice(0, 100)}</p>
-                                                <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
+                                                <Link className=' text-decoration-none fw-bold custom_btn' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
                                         </div>
                                     </> : (Val.id > 2 && Val.id < 5) ? <>
@@ -34,7 +36,7 @@ const SegmentCard = ({ item }) => {
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details.slice(0, 100)}</p>
                                                 {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
-                                                <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
+                                                <Link className=' text-decoration-none fw-bold custom_btn' to={`/category/${Val.id}`}>Explore More</Link>
                                             </div>
 
                                             <div className="col-lg-6 wrapper ">
@@ -58,7 +60,7 @@ const SegmentCard = ({ item }) => {
                                                 <h3 className=" fw-bold">{Val.category}</h3>
                                                 <p>{Val.details.slice(0, 95)}</p>
                                                 {/* <Link to={Val.id} className=" text-decoration-none fw-bold" >Explore More</Link> */}
-                                                <Link className=' text-decoration-none fw-bolder' to={`/category/${Val.id}`}>Explore More</Link>
+                                                <Link className=' text-decoration-none fw-bold custom_btn' to={`/category/${Val.id}`}>Explore More</Link>
                                                 {/* </div> */}
                                             </div>
                                         </div>

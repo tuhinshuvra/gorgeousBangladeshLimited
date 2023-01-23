@@ -42,7 +42,7 @@ const Contact = () => {
                             <textarea type="message" className="form-control" id="floatingInput" placeholder="Input message" />
                             <label htmlFor="floatingInput">Message</label>
                         </div>
-                        <button className="w-100 btn btn-lg btn-outline-primary" type="submit">Submit</button>
+                        <button className="w-100 btn btn-lg btn-outline-success" type="submit">Submit</button>
                     </form>
                 </div>
             </div>

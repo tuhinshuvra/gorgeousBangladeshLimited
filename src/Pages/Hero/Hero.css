@@ -10,7 +10,8 @@
     height: 280px;
 }
 
-h1 {
+h1,
+h3 {
     font-family: 'Josefin Sans', sans-serif;
     color: #0E3E1E;
     /* font-size: 200px; */

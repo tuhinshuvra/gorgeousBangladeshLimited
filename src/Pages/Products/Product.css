@@ -44,3 +44,14 @@ img {
     /*becomes visible on hover*/
     opacity: 1;
 }
+
+.custom_btn {
+    color: #157347;
+}
+
+.custom_btn:hover {
+    color: white;
+    background-color: #157347;
+    padding: 8px;
+    border-radius: 20px;
+}
