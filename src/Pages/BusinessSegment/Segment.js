@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Data from "./SegmentList";
-import '../BusinessSegment/Segment.css';
 import SegmentCard from "./SegmentCard";
+import '../BusinessSegment/Segment.css';
 
 const Segment = () => {
     const newData = Data.slice(0, 4);
@@ -14,7 +14,7 @@ const Segment = () => {
             <div className=" col-lg-12 mx-auto">
 
                 <div className="row">
-                    <h1 className="col-12 text-center fw-bold section-title ">Awesome<br /> Business Segment</h1>
+                    <h1 className="col-12 text-center fw-bold section-title pt-lg-5 ">Awesome<br /> Business Segment</h1>
                     <SegmentCard item={item} />
 
                     <div className="d-flex justify-content-center mb-lg-3">

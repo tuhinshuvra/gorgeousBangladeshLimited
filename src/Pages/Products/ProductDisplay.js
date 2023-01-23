@@ -15,15 +15,8 @@ const ProductDisplay = ({ item }) => {
                                     title={Val.title}
                                 >
                                     <div className="bg-image image-wrapper">
-                                        <img src={Val.img} alt={Val.title} className=" img-fluid rounded-4 " />
-                                        <Link to="/category_details">
-                                            {/* <CatrgoryDetails
-                                            >
-                                                details={Val.title}
-                                            </CatrgoryDetails> */}
-                                        </Link>
-
-                                        <h6 class="title">{Val.title}</h6>
+                                        <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
+                                        <p className="title">{Val.title}</p>
                                     </div>
 
                                 </div>

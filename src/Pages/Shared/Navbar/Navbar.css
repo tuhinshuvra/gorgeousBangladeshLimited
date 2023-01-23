@@ -1,8 +1,21 @@
+.nav_btn {
+    color: #0E3E1E;
+}
+
 .nav_btn:hover {
-    /* background-color: rgb(97, 149, 239); */
+    /* background-color: #198754; */
     /* border-radius: 10px; */
+    color: white;
 }
 
 .navbar {
-    background-color: #B1C0C5;
+    background-color: #0e3e1e27;
+}
+
+.footer_bg {
+    background-color: #0e3e1e27;
+}
+
+.copyright_text {
+    color: #0E3E1E;
 }

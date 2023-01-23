@@ -21,35 +21,35 @@ const Experience = () => {
 
 
                         <div className=' my-0 py-0'>
-                            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-bs-interval="2000">
-                                        <img src={CategoryOne} class="d-block w-100 rounded-3 " alt="..." />
+                            <div id="carouselExampleInterval" className="carousel slide " data-bs-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active" data-bs-interval="2000">
+                                        <img src={CategoryOne} className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src={CategoryTwo} class="d-block w-100 rounded-3 " alt="..." />
+                                    <div className="carousel-item" data-bs-interval="2000">
+                                        <img src={CategoryTwo} className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={CategoryThree} data-bs-interval="2000" class="d-block w-100 rounded-3 " alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={CategoryThree} data-bs-interval="2000" className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={CategoryFour} data-bs-interval="2000" class="d-block w-100 rounded-3 " alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={CategoryFour} data-bs-interval="2000" className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={CategoryFive} data-bs-interval="2000" class="d-block w-100 rounded-3 " alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={CategoryFive} data-bs-interval="2000" className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src={CategorySix} data-bs-interval="2000" class="d-block w-100 rounded-3 " alt="..." />
+                                    <div className="carousel-item">
+                                        <img src={CategorySix} data-bs-interval="2000" className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
 
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
+                                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
+                                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Next</span>
                                 </button>
                             </div>
                         </div>

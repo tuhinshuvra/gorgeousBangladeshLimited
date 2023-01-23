@@ -22,7 +22,7 @@ const Products = () => {
 
             <div className="container product_bg">
                 <div className="row">
-                    <h1 className="col-12 text-center fw-bold section-title">Our Products <br /> And Sevices</h1>
+                    <h1 className="col-12 text-center fw-bold section-title pt-lg-5 ">Our Products <br /> And Sevices</h1>
                     <Buttons
                         filterItem={filterItem}
                         setItem={setItem}

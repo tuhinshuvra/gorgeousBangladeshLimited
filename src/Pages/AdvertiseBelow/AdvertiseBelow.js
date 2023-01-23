@@ -26,60 +26,60 @@ const Advertise = () => {
                         {/* <h2 className=' fw-bold text-center'>International</h2> */}
                         <Carousel cols={5} rows={1} gap={5} loop={true} autoplay={3000} >
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid p-2 rounded-4" style={{ height: "8rem" }} src={AdOne} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid p-2 rounded-5" style={{ height: "8rem" }} src={AdOne} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdTwo} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdTwo} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdThree} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdThree} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdFour} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdFour} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdFive} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdFive} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdSix} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdSix} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdSeven} alt='' />
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdSeven} alt='' />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdEignt} alt='' />
-                                    <div class="card-body">
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdEignt} alt='' />
+                                    <div className="card-body">
 
                                     </div>
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdNine} alt='' />
-                                    <div class="card-body">
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdNine} alt='' />
+                                    <div className="card-body">
 
                                     </div>
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <div class="card border-0" style={{ width: "15rem" }}>
-                                    <img class="card-img-top img-fluid rounded-4" style={{ height: "8rem" }} src={AdOne} alt='' />
-                                    <div class="card-body">
+                                <div className="card border-0" style={{ width: "15rem" }}>
+                                    <img className="card-img-top img-fluid rounded-5" style={{ height: "8rem" }} src={AdOne} alt='' />
+                                    <div className="card-body">
 
                                     </div>
                                 </div>

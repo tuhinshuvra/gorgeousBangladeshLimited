@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import FooterLogo from '../../../assets/images/logo/gbl_small_logo.png';
-import './Footer.css';
+import '../Navbar/Navbar.css';
 
 const Footer = () => {
     return (
@@ -15,42 +15,42 @@ const Footer = () => {
                         <h5 className=' text-center mt-2'>Providing reliable service</h5>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>Services</h5>
+                        <h5 className=' fw-bold'>Services</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
-                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
-                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 nav_btn fw-bold">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 nav_btn fw-bold">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 nav_btn fw-bold">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 nav_btn fw-bold">About</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>Hot Link</h5>
+                        <h5 className='fw-bold'>Hot Link</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
-                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
-                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 nav_btn fw-bold">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 nav_btn fw-bold">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 nav_btn fw-bold">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 nav_btn fw-bold">About</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>Legal</h5>
+                        <h5 className=' fw-bold'>Legal</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
-                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
-                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 nav_btn fw-bold">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 nav_btn fw-bold">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 nav_btn fw-bold">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 nav_btn fw-bold">About</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>Legal</h5>
+                        <h5 className=' fw-bold'>Legal</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 text-muted">Home</Link></li>
-                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 text-muted">Product</Link></li>
-                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 text-muted">Sevices</Link></li>
-                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 text-muted">About</Link></li>
+                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 nav_btn fw-bold">Home</Link></li>
+                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 nav_btn fw-bold">Product</Link></li>
+                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 nav_btn fw-bold">Sevices</Link></li>
+                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 nav_btn fw-bold">About</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
 
                 <div className=" ">
-                    <p className=' text-center mb-0 '>Copyright @ 2023, All right reserved by Gorgeous Bangladesh Ltd</p>
+                    <p className=' text-center mb-0 copyright_text'> <small>Copyright @ 2023, All right reserved by Gorgeous Bangladesh Ltd</small></p>
                 </div>
             </footer>
         </div>
