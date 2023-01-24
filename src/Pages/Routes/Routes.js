@@ -27,9 +27,16 @@ const router = createBrowserRouter([
                 element: <Segment></Segment>
             },
             {
-                path: '/category/:categoryId',
+                path: '/categoryDetails',
                 element: <CatrgoryDetails></CatrgoryDetails>
             },
+
+
+            // {
+            //     path: '/services/:serviceId',
+            //     element: <ServiceDetails></ServiceDetails>,
+            //     loader: ({ params }) => fetch(`https://eclectronics-doctor-review.vercel.app/services/${params.serviceId}`)
+            // },
             {
                 path: '/about',
                 element: <About></About>
