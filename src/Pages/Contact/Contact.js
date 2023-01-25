@@ -51,14 +51,15 @@ const Contact = () => {
                             name="email"
                             autoComplete="off"
                             placeholder='Email Address'
-                            required
+
                         />
                         <textarea
                             className=' mb-2 form-control'
                             name='message'
                             cols="30"
-                            rows="6"
+                            rows="3"
                             autoComplete="off"
+                            placeholder='Message'
                             required
                         ></textarea>
                         <input className=' btn btn-outline-success my-lg-5' type="submit" value="Send Message" />
