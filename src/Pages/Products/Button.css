@@ -1,3 +1,42 @@
 .hide-me[aria-expanded="true"] {
     display: none;
 }
+
+
+.product_button-area {
+    width: 80%;
+    background-color: white;
+    padding: 15px 0;
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+}
+
+.product_button {
+    font-weight: bold;
+    background-color: white;
+    /* font-size: 15px; */
+    color: black;
+    /* width: 80%; */
+    /* background-color:  */
+    border-width: 0px 3px 0 0;
+    /* top right bottom left */
+    /* border-style: none solid none none;   */
+    border-color: white #F3F7F4 white white;
+}
+
+.show_all {
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    /* width: 80%; */
+    /* background-color:  */
+    border-width: 0;
+    border: none;
+}
+
+.product_button:hover,
+.show_all:hover {
+    color: green;
+    font-size: 18px;
+}

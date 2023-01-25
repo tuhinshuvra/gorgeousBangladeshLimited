@@ -1,17 +1,17 @@
 import React from "react";
 import ProductList from "./ProductList";
-import './Button.css';
 import { Button, ButtonGroup } from "react-bootstrap";
+import './Button.css';
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {
     return (
-        <div className="d-flex justify-content-center mb-lg-3">
+        <div className="d-flex justify-content-center mb-lg-3 product_button-area">
             {menuItems.map((Val, id) => {
                 return (
-                    <div className="btn-group" role="group" aria-label="button-show">
+                    <div className="" role="group" aria-label="button-show">
 
                         <button
-                            className=" btn btn-success fw-bold btn-sm rounded-pill text-white "
+                            className="product_button"
                             onClick={(hidebutton) => filterItem(Val)}
                             key={id}
                         >{Val}
@@ -19,7 +19,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
 
                         {/* <ButtonGroup variant="outlined" aria-label="outlined button group">
                             <Button
-                                className=" btn btn-outline-primary fw-bold btn-sm"
+                                className=" btn btn-outline-success text-white fw-bold btn-sm"
                                 onClick={(hidebutton) => filterItem(Val)}
                                 key={id}
                             >{Val}
@@ -28,8 +28,9 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
                     </div>
                 );
             })}
-            <button id="show_all"
-                className="btn btn-success text-white rounded-pill ms-2 fw-bold"
+            <button
+                className="show_all"
+                id="show_all"
                 onClick={() => setItem(ProductList)}
             > Show All
             </button>
