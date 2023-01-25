@@ -1,5 +1,4 @@
 import React from 'react';
-// import ExperiencePhto from '../../assets/images/categories/Cement_Industry_Materials.png';
 
 import CategoryOne from '../../assets/images/categories/Agro_and_Foods.png'
 import CategoryTwo from '../../assets/images/categories/Cement_Industry_Materials.png'
@@ -17,7 +16,6 @@ const Experience = () => {
             <div className="col-lg-12 px-4 py-5">
                 <div className="row flex-lg-row-reverse   g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6  ">
-                        {/* <img src={ExperiencePhto} className="d-block mx-lg-auto img-fluid rounded-5" alt="Bootstrap Themes" width="700" height="500" loading="lazy" /> */}
 
 
                         <div className=' my-0 py-0'>
@@ -67,7 +65,6 @@ const Experience = () => {
 
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Explore More</button> */}
                             <Link to="/about">
                                 <button type="button" className="btn btn-success btn-lg px-4   rounded-pill fw-bold">Explore More</button>
                             </Link>
