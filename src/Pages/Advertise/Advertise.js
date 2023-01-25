@@ -1,9 +1,6 @@
 import React from 'react';
-import './MulitImageSlider.css';
 import { Link } from 'react-router-dom';
 import Carousel from 'react-grid-carousel';
-import './MulitImageSlider.css';
-
 import AdOne from '../../assets/images/clients/CCPIT_TEX.png';
 import AdTwo from '../../assets/images/clients/china_real_estate.png';
 import AdThree from '../../assets/images/clients/chines_textile.jpg';
@@ -13,6 +10,7 @@ import AdSix from '../../assets/images/clients/dalmia.png';
 import AdSeven from '../../assets/images/clients/lucky_cement.png';
 import AdEignt from '../../assets/images/clients/quassim_cement.png';
 import AdNine from '../../assets/images/clients/ultratech_Cement_Logo.png';
+import './MulitImageSlider.css';
 
 const Advertise = () => {
 

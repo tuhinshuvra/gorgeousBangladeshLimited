@@ -2,32 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
-    // function sendEmail() {
-    //     let params = {
-    //         name: document.getElementById("name").value,
-    //         email: document.getElementById("email").value,
-    //         phone: document.getElementById("phone").value,
-    //         message: document.getElementById("message").value,
-
-    //     };
-
-    //     const serviceID = "service_k8x2mok";
-    //     const templateID = "template_zxf5x8d";
-
-    //     emailjs
-    //         .send(serviceID, templateID, params)
-    //         .then((res) => {
-    //             document.getElementById("name").value = "";
-    //             document.getElementById("email").value = "";
-    //             document.getElementById("phone").value = "";
-    //             document.getElementById("message").value = "";
-    //             console.log("Response Result :", res);
-    //             alert("Your message send successfully")
-    //         })
-    //         .catch((error) => console.log(error));
-
-    // }
-
     return (
         <div className="contact_bg col-lg-12 px-4 py-5" style={{ backgroundColor: '#D0DFFD' }}>
             <div className="row align-items-center g-lg-5 py-lg-5 col-lg-10 mx-auto p-sm-0">
@@ -50,24 +24,44 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 mx-auto">
-                    <form className="p-4 p-md-5 border rounded-5 bg-light">
-                        <div className="form-floating mb-3">
-                            <input type="text" className="form-control" id="floatingInput" placeholder="Input full name" />
-                            <label htmlFor="floatingInput">Full Name</label>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
-                            <label htmlFor="floatingInput">Email address</label>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <input type="text" className="form-control" id="floatingInput" placeholder="0123456789" />
-                            <label htmlFor="floatingInput">Phone No</label>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <textarea type="message" className="form-control" id="floatingInput" placeholder="Input message" />
-                            <label htmlFor="floatingInput">Message</label>
-                        </div>
-                        <button className="w-100 btn btn-lg btn-outline-success" type="submit">Submit</button>
+                    <form
+                        className='d-flex flex-column'
+                        action="https://formspree.io/f/mbjelnwv"
+                        method="POST">
+
+                        <input type="text"
+
+                            className=' mb-2 form-control'
+                            name="username"
+                            autoComplete="off"
+                            placeholder='Name'
+                            required
+                        />
+
+                        <input type="text"
+                            className=' mb-2 form-control'
+                            name="phone"
+                            autoComplete="off"
+                            placeholder='Phone No'
+                            required
+                        />
+
+                        <input type="email"
+                            className=' mb-2 form-control'
+                            name="email"
+                            autoComplete="off"
+                            placeholder='Email Address'
+                            required
+                        />
+                        <textarea
+                            className=' mb-2 form-control'
+                            name='message'
+                            cols="30"
+                            rows="6"
+                            autoComplete="off"
+                            required
+                        ></textarea>
+                        <input className=' btn btn-outline-success my-lg-5' type="submit" value="Send Message" />
                     </form>
                 </div>
             </div>
