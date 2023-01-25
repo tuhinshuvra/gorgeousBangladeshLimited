@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Image } from "react-bootstrap";
 import './Product.css'
 
 const ProductDisplay = ({ item }) => {
@@ -11,7 +12,7 @@ const ProductDisplay = ({ item }) => {
                     {item.map((Val) => {
                         return (
                             <div className="  " key={Val.id}>
-                                <div className=" col-lg-12 wrapper  "
+                                <div className=" col-lg-12 wrapper"
                                     title={Val.title}
                                 >
                                     <div className="bg-image image-wrapper">
