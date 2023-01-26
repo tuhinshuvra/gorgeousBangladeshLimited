@@ -153,73 +153,73 @@ const ProductList = [
   {
     id: "21",
     title: "Rice",
-    category: "Agro and Foods",
+    category: "Agro & Foods",
     img: "../../assets/images/products/Rice.png"
   },
   // {
   //   id: "22",
   //   title: "Urea",
-  //   category: "Agro and Foods",
+  //   category: "Agro & Foods",
   //   img: "../../assets/images/products/urea2.png"
   // },
   // {
   //   id: "23",
   //   title: "Spice",
-  //   category: "Agro and Foods",
+  //   category: "Agro & Foods",
   //   img: "../../assets/images/products/spice3.png"
   // },
   {
     id: "24",
     title: "Corn",
-    category: "Agro and Foods",
+    category: "Agro & Foods",
     img: "../../assets/images/products/corn.png"
   },
   // {
   //   id: "25",
   //   title: "Urea",
-  //   category: "Agro and Foods",
+  //   category: "Agro & Foods",
   //   img: "../../assets/images/products/urea.png"
   // },
   // {
   //   id: "26",
   //   title: "chips",
-  //   category: "Agro and Foods",
+  //   category: "Agro & Foods",
   //   img: "../../assets/images/products/chips.png"
   // },
   {
     id: "27",
     title: "Wheat",
-    category: "Agro and Foods",
+    category: "Agro & Foods",
     img: "../../assets/images/products/wheat.png"
   },
   // {
   //   id: "28",
   //   title: "Wheat",
-  //   category: "Agro and Foods",
+  //   category: "Agro & Foods",
   //   img: "../../assets/images/products/spice1.png"
   // },
   {
     id: "29",
     title: "Fertiliser",
-    category: "Agro and Foods",
+    category: "Agro & Foods",
     img: "../../assets/images/products/fertiliser.png"
   },
   {
     id: "30",
     title: "Security Service",
-    category: "Logistics and Security",
+    category: "Logistics & Security",
     img: "../../assets/images/products/Security-Service.png"
   },
   {
     id: "31",
     title: "IT Prodact",
-    category: "Logistics and Security",
+    category: "Logistics & Security",
     img: "../../assets/images/products/IT-prodact.png"
   },
   // {
   //   id: "32",
   //   title: "Fire Fighting",
-  //   category: "Logistics and Security",
+  //   category: "Logistics & Security",
   //   img: "../../assets/images/products/firetrack.png"
   // },
 
