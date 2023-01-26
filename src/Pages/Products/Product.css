@@ -55,3 +55,21 @@ img {
     padding: 8px;
     border-radius: 20px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+}
+
+@media (min-width: 778px) and (max-width: 1024px) {
+    .product {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+}

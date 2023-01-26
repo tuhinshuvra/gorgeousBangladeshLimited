@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Carousel from 'react-grid-carousel';
 import AdOne from '../../assets/images/clients/CCPIT_TEX.png';
 import AdTwo from '../../assets/images/clients/china_real_estate.png';
