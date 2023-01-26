@@ -11,14 +11,7 @@
 }
 
 .product_bg {
-
     background-color: rgba(113, 209, 113, 0.185);
-
-    /* background-color: rgb(0, 255, 85); */
-    /* background-image: url(../../assets/images/background/wave.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
-    /* mask-image: url(../../assets/images/background/wave.svg); */
 }
 
 .segment_bg {
@@ -26,17 +19,13 @@
 }
 
 
-/* .waveContainer {
-    height: 100vh;
-    overflow: hidden;
-}
 
-.viewBox {
-    height: 100%;
-    width: 100%;
-}
 
-.path {
-    stroke: none;
-    fill: rgb(237, 115, 115); */
-/* } */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .section-title {
+        margin: 10px 0px 0px 0px;
+        font-size: 40px;
+    }
+}

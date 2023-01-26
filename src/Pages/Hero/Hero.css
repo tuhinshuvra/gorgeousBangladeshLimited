@@ -10,9 +10,35 @@
     height: 280px;
 }
 
+.gbl_btn {
+    width: 180px;
+    padding: 10px 0px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 h1,
 h3 {
     font-family: 'Josefin Sans', sans-serif;
     color: #196e36;
     /* font-size: 200px; */
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .hero_bg {
+        background-image: url(../../assets/images/background/hero_bg.jpg);
+        background-repeat: no-repeat;
+        height: 280px;
+        width: 100%;
+    }
+
+    .gbl_btn {
+        width: 160px;
+        padding: 8px 0px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+
+
 }
