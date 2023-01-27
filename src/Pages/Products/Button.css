@@ -63,8 +63,6 @@
         /* top right bottom left */
         /* border-style: none solid none none;   */
         border-color: white;
-
-
     }
 
     .show_all {
@@ -86,6 +84,40 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 0 auto;
+    }
+
+    .product_button:hover,
+    .show_all:hover {
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 2px;
+        color: rgb(245, 248, 245);
+        background-color: rgb(5, 57, 5);
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    .button_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 auto;
+    }
+
+    .product_button,
+    .show_all {
+        font-weight: bold;
+        background-color: white;
+        font-size: 13px;
+        color: black;
+        /* width: 80%; */
+        /* background-color: green; */
+        border-radius: 10%;
+        border-width: 0;
+        margin: 0 0 6px 0;
+        /* top right bottom left */
+        /* border-style: none solid none none;   */
+        border-color: white;
     }
 
     .product_button:hover,
