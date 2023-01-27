@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.about_bg {
+    background-color: rgb(142 142 229 / 27%);
+}
+
 .about_img {
     width: 86%;
     height: 280px;
