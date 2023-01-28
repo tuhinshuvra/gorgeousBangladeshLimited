@@ -3,7 +3,7 @@ const SegmentList = [
         id: "1",
         category: "Agro and Foods",
         details: "Gorgeous Bangladesh supplies various food items. We primarily import and supply rice, corn and  wheat.We also supply fertilizers ( Urea, Ammonium sulfat, Ammonium Nitrate, Sodium Nitrate, Muriate of Potash, Sulphate of Potas).",
-        img: "../../assets/images/categories/Agro_and_Foods.png"
+        img: "../../assets/images/categories/Agro_and_Foods.png",
     },
     {
         id: "2",
@@ -15,7 +15,7 @@ const SegmentList = [
         id: "3",
         category: "Commercial Transport",
         details: "Gorgeous Bangladesh engaged in the import and supply of commercial transport vehicles. These vehicles include trucks, buses, and other types of commercial vehicles that are used for transporting goods and passengers.We imports these vehicles from different manufacturers around the world.",
-        img: "https://i.ibb.co/ZGgthR4/bus.jpg"
+        img: "../../assets/images/categories/Commercial_Transport.JPG"
     },
     {
         id: "4",

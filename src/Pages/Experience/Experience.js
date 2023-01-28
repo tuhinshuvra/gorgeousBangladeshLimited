@@ -5,9 +5,8 @@ import CategoryThree from '../../assets/images/categories/Commercial_Transport.J
 import CategoryFour from '../../assets/images/categories/Logistics_and_Security.png'
 import CategoryFive from '../../assets/images/categories/Power_Solution.png'
 import CategorySix from '../../assets/images/categories/RMG_Sector.png'
-
-import './Experience.css';
 import { Link } from 'react-router-dom';
+import './Experience.css';
 
 const Experience = () => {
     return (
@@ -15,7 +14,7 @@ const Experience = () => {
             <div className="col-lg-12 px-4 py-5">
                 <div className="row flex-lg-row-reverse g-5 py-5">
                     <div className="col-lg-6">
-                        <div className="slide-left">
+                        <div className="">
                             <div id="gblExperienceCarousol" className="carousel slide " data-bs-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active rounded-5" data-bs-interval="2000">
@@ -50,7 +49,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className='slide-right'>
+                        <div className=''>
                             <h1 className="display-5 fw-bold lh-1 mb-3">12+ Years <br /> of Experience</h1>
                             <p className="">
                                 <span>Our business enterprise aims at the overall development of Bangladesh by undertaking entrepreneurship in multiple nation-building ventures.</span>

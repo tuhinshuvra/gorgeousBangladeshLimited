@@ -130,3 +130,9 @@
         font-size: 13px;
     }
 }
+
+@media (min-width: 1439px) {
+    .product_button-area {
+        width: 67%;
+    }
+}

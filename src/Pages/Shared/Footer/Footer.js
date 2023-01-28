@@ -12,7 +12,7 @@ const Footer = () => {
                         <div className=' d-flex justify-content-center'>
                             <Link to="/"> <img className='' src={FooterLogo} alt="" /></Link>
                         </div>
-                        <h5 className=' text-center mt-2'>Providing reliable service</h5>
+                        <h5 className=' text-center mt-2'>We build quality</h5>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
                         <h5 className=' fw-bold'>Services</h5>

@@ -1,6 +1,6 @@
 import React from 'react';
-import MissionImage from '../../assets/images/mission_vission/misssion.jpg'
-import VissionImage from '../../assets/images/mission_vission/vission.jpg'
+import MissionImage from '../../assets/images/mission_vission/misssion.jpg';
+import VissionImage from '../../assets/images/mission_vission/vission.jpg';
 import '../Hero/Hero.css';
 
 
