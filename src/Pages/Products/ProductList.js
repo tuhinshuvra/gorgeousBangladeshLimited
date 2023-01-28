@@ -154,7 +154,7 @@ const ProductList = [
   },
   {
     id: "28",
-    title: "Wheat",
+    title: "Coriander Powder",
     category: "Agro & Foods",
     img: "../../assets/images/products/spice1.png"
   },
