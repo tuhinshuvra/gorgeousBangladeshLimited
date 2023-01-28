@@ -1,6 +1,5 @@
 import React from "react";
 import ProductList from "./ProductList";
-import { Button, ButtonGroup } from "react-bootstrap";
 import './Button.css';
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {

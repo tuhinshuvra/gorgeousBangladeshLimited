@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Image } from "react-bootstrap";
-import './Product.css'
+import './ProductDisplay.css'
 
 const ProductDisplay = ({ item }) => {
 

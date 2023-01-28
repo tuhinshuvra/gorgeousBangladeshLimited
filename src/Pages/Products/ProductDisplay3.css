@@ -1,0 +1,81 @@
+.wrapper {
+    transition: all 1000ms ease-in-out;
+}
+
+.image-wrapper {
+    width: 200px;
+    cursor: pointer;
+    transition: all 1000ms ease-in-out;
+}
+
+img {
+    width: 200px;
+    transition: all 1000ms ease-in-out;
+}
+
+.book-design-image {
+    object-position: center;
+}
+
+.wrapper:hover img {
+    transform: scale(2);
+}
+
+.wrapper:hover .image-wrapper {
+    width: 170px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.image_title {
+    position: relative;
+}
+
+.title {
+    /* background-color: rgba(9, 9, 9, 0.221); */
+    /* position: absolute; */
+    bottom: 0;
+    color: rgb(2, 51, 2);
+    width: 100%;
+    font-size: 20px;
+    padding: 7px 0;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.container:hover .title {
+    opacity: 1;
+}
+
+.custom_btn {
+    color: #157347;
+}
+
+.custom_btn:hover {
+    color: white;
+    background-color: #157347;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+}
+
+@media (min-width: 778px) and (max-width: 1024px) {
+    .product {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
