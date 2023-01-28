@@ -1,10 +1,10 @@
-.popular-location {
+.add_slider {
     margin: 100px 0;
 }
 
 
 @media (min-width: 320px) and (max-width: 992px) {
-    .popular-location {
+    .add_slider {
         margin: 50px 0;
     }
 }

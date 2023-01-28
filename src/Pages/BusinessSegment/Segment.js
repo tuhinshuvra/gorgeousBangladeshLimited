@@ -11,13 +11,13 @@ const Segment = () => {
 
     return (
         <div className="container segment_bg">
-            <div className=" col-lg-12 mx-auto">
+            <div className=" col-lg-10 mx-auto">
 
                 <div className="row">
                     <h1 className="col-12 text-center fw-bold section-title pt-lg-5 ">Awesome<br /> Business Segment</h1>
                     <SegmentCard item={item} />
 
-                    <div className="d-flex justify-content-center mb-lg-3">
+                    <div className="d-flex justify-content-center mb-3">
                         {/* <button className="btn btn-primary ms-2 " */}
                         <button className="btn btn-success btn-lg px-4 my-lg-5  rounded-pill fw-bold "
                             onClick={() => setItem(Data)}

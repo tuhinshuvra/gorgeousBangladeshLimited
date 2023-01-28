@@ -1,24 +1,46 @@
 import React from 'react';
-import CategoryOne from '../../assets/images/categories/Agro_and_Foods.png'
-import CategoryTwo from '../../assets/images/categories/Cement_Industry_Materials.png'
-import CategoryThree from '../../assets/images/categories/Commercial_Transport.png'
-import CategoryFour from '../../assets/images/categories/Logistics_and_Security.png'
-import CategoryFive from '../../assets/images/categories/Power_Solution.png'
-import CategorySix from '../../assets/images/categories/RMG_Sector.png'
+import CategoryOne from '../../assets/images/exp_products/corn.png';
+import CategoryTwo from '../../assets/images/exp_products/ebike.png';
+import CategoryThree from '../../assets/images/exp_products/e_scuter.png';
+import CategoryFour from '../../assets/images/exp_products/gbl_product1.png';
+import CategoryFive from '../../assets/images/exp_products/gbl_product2.png';
+import CategorySix from '../../assets/images/exp_products/gbl_product3.png';
+import CategorySeven from '../../assets/images/exp_products/gbl_product4.png';
+import CategoryEight from '../../assets/images/exp_products/gbl_product5.png';
 import { Link } from 'react-router-dom';
 import './Experience.css';
 
 const Experience = () => {
     return (
         <div className='product_bg'>
-            <div className="col-lg-12 px-4 py-5">
-                <div className="row flex-lg-row-reverse g-5 py-5">
+            {/* <div className="col-lg-12 px-4 py-5"> */}
+            <div className=" col-lg-10 mx-auto">
+
+                <div className="row  d-flex  g-5 py-5">
                     <div className="col-lg-6">
-                        <div className="">
-                            <div id="gblExperienceCarousol" className="carousel slide " data-bs-ride="carousel">
+                        <div className=' mx-lg-0  mx-5 '>
+                            <h1 className="display-5 fw-bold lh-1 mb-3">12+ Years <br /> of Experience</h1>
+                            <p className="">
+                                <span>Our business enterprise aims at the overall development of Bangladesh by undertaking entrepreneurship in multiple nation-building ventures.</span> <br /><br />
+
+                                <span className=''> Our services sections are  Agro and Foods, Cement Industry Materials, Commercial Transport, Logistics and Security, Power Solutions, RMG Sectors</span>
+
+                                {/* <span>Our mission is among others, to make employment opportunities, eliminate poverty, contribute to enhancing infrastructures at the national level, and finally lead Bangladesh toward development and prosperity.</span> */}
+                            </p>
+                            <div className="">
+                                <Link className='gbl_btn btn btn-success rounded-pill fw-bold text-decoration-none text-white' to="/about">
+                                    Explore More
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 ">
+                        <div className=' mx-lg-0  mx-5 '>
+                            <div id="gblExperienceCarousol" className="carousel carousel-dark slide " data-bs-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active rounded-5" data-bs-interval="2000">
-                                        <img src={CategoryOne} className="d-block w-100 rounded-5 " alt="..." />
+                                        <img src={CategoryOne} className="d-block w-100 rounded-5  " alt="..." />
                                     </div>
                                     <div className="carousel-item rounded-5" data-bs-interval="2000">
                                         <img src={CategoryTwo} className="d-block w-100 rounded-5 " alt="..." />
@@ -35,6 +57,12 @@ const Experience = () => {
                                     <div className="carousel-item rounded-5" data-bs-interval="2000">
                                         <img src={CategorySix} className="d-block w-100 rounded-5 " alt="..." />
                                     </div>
+                                    <div className="carousel-item rounded-5" data-bs-interval="2000">
+                                        <img src={CategorySeven} className="d-block w-100 rounded-5 " alt="..." />
+                                    </div>
+                                    <div className="carousel-item rounded-5" data-bs-interval="2000">
+                                        <img src={CategoryEight} className="d-block w-100 rounded-5 " alt="..." />
+                                    </div>
 
                                 </div>
                                 <button className="carousel-control-prev" type="button" data-bs-target="#gblExperienceCarousol" data-bs-slide="prev">
@@ -48,23 +76,9 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <div className=''>
-                            <h1 className="display-5 fw-bold lh-1 mb-3">12+ Years <br /> of Experience</h1>
-                            <p className="">
-                                <span>Our business enterprise aims at the overall development of Bangladesh by undertaking entrepreneurship in multiple nation-building ventures.</span>
 
-                                <span className=''> Our services sections are  Agro and Foods, Cement Industry Materials, Commercial Transport, Logistics and Security, Power Solutions, RMG Sectors</span> <br /><br />
 
-                                <span>Our mission is among others, to make employment opportunities, eliminate poverty, contribute to enhancing infrastructures at the national level, and finally lead Bangladesh toward development and prosperity.</span>
-                            </p>
-                            <div className="">
-                                <Link className='gbl_btn btn btn-success rounded-pill fw-bold text-decoration-none text-white' to="/about">
-                                    Explore More
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div >

@@ -4,6 +4,8 @@
     gap: 10px;
 }
 
+
+
 .wrapper {
     position: relative;
     /* width: 210px; */
@@ -61,6 +63,10 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+    }
+
+    .exp_cus_pad {
+        padding: 0 90px;
     }
 
 }

@@ -11,19 +11,19 @@ const SegmentCard = ({ item }) => {
                 <div className="row justify-content-center">
                     {item.map((Val) => {
                         return (
-                            <div className="col-lg-6   my-2 py-2 border-0 rounded-5" key={Val.id}>
-                                <div className="col-lg-12">
-                                    <div className="row my-1">
+                            <div className="col-md-6 col-sm-12  py-2 border-0 rounded-5" key={Val.id}>
+                                <div className="">
+                                    <div className="row ">
                                         {(Val.id === "1") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3 my-2">
-                                                <div className=" col-lg-6  my-1  wrapper">
+                                            <div className=" d-lg-flex justify-content-center gap-3  exp_cus_pad">
+                                                <div className=" col-lg-6   wrapper">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
-                                                <div className="  col-lg-6  my-1  my-lg-auto">
+                                                <div className="  col-lg-6   my-lg-auto">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
-                                                    <p>{Val.details.slice(0, 100)}</p>
+                                                    <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalOne">Explore More</Link>
                                                     <div className="modal fade" id="categeryModalOne" tabIndex="-1" aria-labelledby="categeryModalOneLabel" aria-hidden="true">
                                                         <div className="modal-dialog">
@@ -47,17 +47,17 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row">
+                                    <div className="row ms-lg-3 ">
                                         {(Val.id === "2") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3">
-                                                <div className=" col-lg-6  my-4  wrapper">
+                                            <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
+                                                <div className=" col-lg-6   wrapper">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
                                                 <div className="  col-lg-6  my-auto">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
-                                                    <p>{Val.details.slice(0, 100)}</p>
+                                                    <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalTwo">Explore More</Link>
                                                     <div className="modal fade" id="categeryModalTwo" tabIndex="-1" aria-labelledby="categeryModalTwoLabel" aria-hidden="true">
                                                         <div className="modal-dialog">
@@ -83,12 +83,12 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 3 and 4 */}
 
-                                    <div className="row my-1">
+                                    <div className="row ">
                                         {(Val.id === "3") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3 my-1">
-                                                <div className="  col-lg-6  my-4">
+                                            <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
+                                                <div className="  col-lg-6 ">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
-                                                    <p>{Val.details.slice(0, 100)}</p>
+                                                    <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalThree">Explore More</Link>
                                                     <div className="modal fade" id="categeryModalThree" tabIndex="-1" aria-labelledby="categeryModalThreeLabel" aria-hidden="true">
                                                         <div className="modal-dialog">
@@ -117,12 +117,12 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row my-1">
+                                    <div className="row ms-lg-3  ">
                                         {(Val.id === "4") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3">
-                                                <div className="  col-lg-6  my-4">
+                                            <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
+                                                <div className="  col-lg-6 ">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
-                                                    <p>{Val.details.slice(0, 100)}</p>
+                                                    <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalFour">Explore More</Link>
                                                     <div className="modal fade" id="categeryModalFour" tabIndex="-1" aria-labelledby="categeryModalFourLabel" aria-hidden="true">
                                                         <div className="modal-dialog">
@@ -142,7 +142,7 @@ const SegmentCard = ({ item }) => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className=" col-lg-6  my-2  wrapper">
+                                                <div className=" col-lg-6   wrapper">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
@@ -154,17 +154,17 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 5 and 6 */}
 
-                                    <div className="row my-1">
+                                    <div className="row ">
                                         {(Val.id === "5") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3">
-                                                <div className=" col-lg-6  my-2  wrapper">
+                                            <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
+                                                <div className=" col-lg-6   wrapper">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
                                                 <div className="  col-lg-6  my-auto">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
-                                                    <p>{Val.details.slice(0, 100)}</p>
+                                                    <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalFive">Explore More</Link>
                                                     <div className="modal fade" id="categeryModalFive" tabIndex="-1" aria-labelledby="categeryModalFiveLabel" aria-hidden="true">
                                                         <div className="modal-dialog">
@@ -188,17 +188,17 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row my-1">
+                                    <div className="row ms-lg-3 ">
                                         {(Val.id === "6") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3">
-                                                <div className=" col-lg-6  my-2  wrapper">
+                                            <div className=" d-lg-flex   justify-content-center gap-lg-3 exp_cus_pad">
+                                                <div className=" col-lg-6   wrapper">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
                                                 <div className="  col-lg-6   my-auto">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
-                                                    <p>{Val.details.slice(0, 100)}</p>
+                                                    <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalSix">Explore More</Link>
                                                     <div className="modal fade" id="categeryModalSix" tabIndex="-1" aria-labelledby="categeryModalSixLabel" aria-hidden="true">
                                                         <div className="modal-dialog">

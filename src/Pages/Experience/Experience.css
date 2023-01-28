@@ -1,12 +1,33 @@
-/* .slide-right,
+.slider_height {
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-right,
 .slide-left {
     width: 100%;
-} */
+}
 
 
 
 /***** Slide Left *****/
-/* .slide-left {
+.slide-left {
     animation: 3s slide-left;
 }
 
@@ -18,10 +39,10 @@
     to {
         margin-left: 50%;
     }
-} */
+}
 
 /***** Slide Right *****/
-/* .slide-right {
+.slide-right {
     animation: 3s slide-right;
 }
 
@@ -33,4 +54,4 @@
     to {
         margin-left: 50%;
     }
-} */
+}

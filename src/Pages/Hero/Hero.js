@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import HeroSliderOne from '../../assets/images/hero_slider/Slide1.png';
 import HeroSliderTwo from '../../assets/images/hero_slider/Slide2.png';
 import HeroSliderThree from '../../assets/images/hero_slider/Slide3.png';
@@ -9,28 +8,28 @@ import './Hero.css';
 const Hero = () => {
     return (
         <div>
-            <div className="">
-                <div id="gblExperienceCarousol" className="carousel slide " data-bs-ride="carousel">
+            <div className="hero_bg">
+                <div id="gblHeroCarousol" className="carousel carousel-dark slide " data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="2000">
-                            <img src={HeroSliderOne} className="d-block w-100" alt="..." />
+                            <img src={HeroSliderOne} className="d-block w-100 image_height" alt="..." />
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <img src={HeroSliderTwo} className="d-block w-100" alt="..." />
+                            <img src={HeroSliderTwo} className="d-block w-100 image_height" alt="..." />
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <img src={HeroSliderThree} className="d-block w-100" alt="..." />
+                            <img src={HeroSliderThree} className="d-block w-100  image_height" alt="..." />
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <img src={HeroSliderFour} className="d-block w-100" alt="..." />
+                            <img src={HeroSliderFour} className="d-block w-100  image_height" alt="..." />
                         </div>
 
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#gblExperienceCarousol" data-bs-slide="prev">
+                    <button className="carousel-control-prev" type="button" data-bs-target="#gblHeroCarousol" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#gblExperienceCarousol" data-bs-slide="next">
+                    <button className="carousel-control-next" type="button" data-bs-target="#gblHeroCarousol" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>

@@ -116,7 +116,7 @@ const ProductList = [
   },
   {
     id: "20",
-    title: "Formal Dress",
+    title: "Ladies Shirt",
     category: "RMG Sector",
     img: "../../assets/images/products/cloth3.png"
   },
@@ -129,7 +129,7 @@ const ProductList = [
   },
   {
     id: "22",
-    title: "Formal Dress",
+    title: "Formal Shirt  ",
     category: "RMG Sector",
     img: "../../assets/images/products/Garments_stock_lot.png"
   },
@@ -164,7 +164,7 @@ const ProductList = [
     category: "Power Solution",
     img: "../../assets/images/products/Engine_oil.png"
   },
-  
+
   {
     id: "30",
     title: "Security Service",

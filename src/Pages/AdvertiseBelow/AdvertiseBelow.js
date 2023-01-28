@@ -16,9 +16,9 @@ import AdNine from '../../assets/images/clients/ultratech_Cement_Logo.png';
 const Advertise = () => {
 
     return (
-        <div className='popular-location location-bg my-0 py-0 '>
+        <div className='add_slider my-0 py-0 '>
             <h1 className="col-12 text-center fw-bold section-title">Our International Partners</h1>
-            <div className=' col-lg-12 '>
+            <div className=' col-lg-10 mx-auto '>
                 <div className='row'>
 
 
