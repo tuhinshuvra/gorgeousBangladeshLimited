@@ -6,7 +6,6 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div>
-            {/* <nav className="navbar navbar-expand-lg bg-body-tertiary"> */}
             <nav className="navbar navbar-expand-lg ">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
@@ -26,18 +25,13 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1 fw-bold nav_btn" to="/services">Services</Link>
                             </li>
-                            {/* <li className="nav-item">
-                                <Link className="nav-link btn btn-outline-success border-0  mx-lg-1 fw-bold nav_btn" to="/category_details">Category</Link>
-                            </li> */}
+
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold nav_btn" to="/about">AboutUs</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold nav_btn" to="/contact">Contact</Link>
                             </li>
-                            {/* <li className="nav-item">
-                                <Link className="nav-link btn btn-outline-success border-0  mx-lg-1  fw-bold nav_btn" to="/login">Login</Link>
-                            </li> */}
                         </ul>
                     </div>
                 </div>

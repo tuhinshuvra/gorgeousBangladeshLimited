@@ -2,7 +2,7 @@
 
 .gbl_animate_bottom {
     position: relative;
-    animation: animatebottom 1.5s
+    animation: animatebottom 1.5s;
 }
 
 @keyframes animatebottom {

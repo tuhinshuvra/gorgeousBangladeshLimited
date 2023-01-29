@@ -6,7 +6,6 @@ import Login from "../Login/Login";
 import Contact from "../Contact/Contact";
 import Products from "../Products/Products";
 import Segment from "../BusinessSegment/Segment";
-import CatrgoryDetails from "../BusinessSegment/CatrgoryDetails";
 import WrongRoute from "../Shared/ErrorDisplay/WrongRoute";
 
 const router = createBrowserRouter([
@@ -25,10 +24,6 @@ const router = createBrowserRouter([
             {
                 path: '/services',
                 element: <Segment></Segment>
-            },
-            {
-                path: '/categoryDetails',
-                element: <CatrgoryDetails></CatrgoryDetails>
             },
             {
                 path: '/about',

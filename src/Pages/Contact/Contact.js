@@ -5,11 +5,11 @@ const Contact = () => {
     return (
         <div className="contact_bg col-lg-12 px-4 py-5" style={{ backgroundColor: '#E5F7E5' }}>
             <div className="row align-items-center g-lg-5 py-lg-5 col-lg-10 mx-auto p-sm-0">
-                <div className="col-lg-5 text-center text-lg-start gbl_animate_left">
-                    <div className=" mb-lg-0 mb-4 ">
+
+                <div className="col-lg-5 text-center text-lg-start gbl_animate_left my-auto  ">
+                    <div className="">
                         <h1 className="text-3xl font-bold mb-2 gbl_animate_bottom">Get in Touch!</h1>
-                        <h5 className=' mb-0'><b>Gorgeous Bangladesh LTD.</b></h5>
-                        <p><b>Valentine Group</b> </p>
+                        <h5 className=' mb-2'><b>Gorgeous Bangladesh LTD.</b></h5>
                         <p className=' mb-0'><b>Corporate Office:</b></p>
                         <p className=' mb-0'>MAG House, House No-20, Shah Makhdum</p>
                         <p>Avenue, Uttara Sector -11, Dhaka-1230</p>
@@ -18,12 +18,13 @@ const Contact = () => {
                         </p>
                         <p className=' mb-0'><b>Email:</b> info@gbl-bd.com</p>
                         <p className=' mb-0'><b>Facebook:</b>
-                            <a className=' text-decoration-none' href="https://www.facebook.com/GorgeousBangladeshLtd" target="_blank" > Gorgeous Bangladesh Ltd</a> <br />
+                            <a className=' text-decoration-none' href="https://www.facebook.com/GorgeousBangladeshLtd" target="_blank" rel="noreferrer"> Gorgeous Bangladesh Ltd</a> <br />
                         </p>
-                        <p className=' mb-0'><b>Phone:</b> +8802 224470053, +8802 224470056</p>
+                        <p className=' mb-lg-0 mb-sm-3'><b>Phone:</b> +8802 224470053, +8802 224470056</p>
                     </div>
                 </div>
-                <div className="col-lg-6 mx-auto gbl_animate_right">
+
+                <div className="col-lg-6  gbl_animate_right mx-auto my-auto">
                     <form
                         className='d-flex flex-column'
                         action="https://formspree.io/f/mbjelnwv"
@@ -54,7 +55,7 @@ const Contact = () => {
 
                         />
                         <textarea
-                            className=' mb-2 form-control'
+                            className='form-control mb-3'
                             name='message'
                             cols="30"
                             rows="3"
@@ -62,7 +63,7 @@ const Contact = () => {
                             placeholder='Message'
                             required
                         ></textarea>
-                        <input className=' btn btn-outline-success my-lg-5' type="submit" value="Send Message" />
+                        <input className=' btn btn-success' type="submit" value="Send Message" />
                     </form>
                 </div>
             </div>

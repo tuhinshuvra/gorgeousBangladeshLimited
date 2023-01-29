@@ -16,8 +16,8 @@ const Experience = () => {
             {/* <div className="col-lg-12 px-4 py-5"> */}
             <div className=" col-lg-10 mx-auto">
 
-                <div className="row  d-flex  g-5 py-5">
-                    <div className="col-lg-6 gbl_animate_left">
+                <div className="row  d-flex g-5 py-5">
+                    <div className="col-lg-6 gbl_animate_left" loading="lazy">
                         <div className=' mx-lg-0  mx-5 '>
                             <h1 className="display-5 fw-bold lh-1 mb-3 gbl_animate_bottom">12+ Years <br /> of Experience</h1>
                             <p className="">
@@ -35,7 +35,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 gbl_animate_right">
+                    <div className="col-lg-6 gbl_animate_right" loading="lazy">
                         <div className=' mx-lg-0  mx-5 '>
                             <div id="gblExperienceCarousol" className="carousel carousel-dark slide " data-bs-ride="carousel">
                                 <div className="carousel-inner">

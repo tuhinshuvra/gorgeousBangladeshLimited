@@ -3,6 +3,9 @@ import HeroSliderOne from '../../assets/images/hero_slider/Slide1.png';
 import HeroSliderTwo from '../../assets/images/hero_slider/Slide2.png';
 import HeroSliderThree from '../../assets/images/hero_slider/Slide3.png';
 import HeroSliderFour from '../../assets/images/hero_slider/Slide4.png';
+import HeroSliderFive from '../../assets/images/hero_slider/Slide5.png';
+import HeroSliderSix from '../../assets/images/hero_slider/Slide6.png';
+import HeroSliderSeven from '../../assets/images/hero_slider/Slide7.png';
 import './Hero.css';
 
 const Hero = () => {
@@ -22,6 +25,15 @@ const Hero = () => {
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
                             <img src={HeroSliderFour} className="d-block w-100  image_height" alt="..." />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={HeroSliderFive} className="d-block w-100  image_height" alt="..." />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={HeroSliderSix} className="d-block w-100  image_height" alt="..." />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="2000">
+                            <img src={HeroSliderSeven} className="d-block w-100  image_height" alt="..." />
                         </div>
 
                     </div>
