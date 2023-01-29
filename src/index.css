@@ -19,9 +19,24 @@ code {
   background-color: rgba(113, 209, 113, 0.185);
 } */
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: 'Josefin Sans', sans-serif;
-  /* color: #0E3E1E; */
-  font-size: 200px;
 }
 
+h1 {
+  /* font-size: 200px; */
+}
+
+h5 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}

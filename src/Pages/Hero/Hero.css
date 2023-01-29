@@ -10,12 +10,12 @@
 }
 
 .about_bg {
-    background-color: rgb(142 142 229 / 27%);
+    background-color: #E5F7E5
 }
 
 .about_img {
     width: 86%;
-    height: 280px;
+    height: 345px;
 }
 
 .gbl_btn {

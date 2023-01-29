@@ -4,7 +4,7 @@ import './Button.css';
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {
     return (
-        <div className="button_grid d-lg-flex justify-content-center mb-lg-3 product_button-area">
+        <div className="button_grid d-lg-flex justify-content-center mb-lg-3 product_button-area gbl_animate_bottom">
             {menuItems.map((Val, id) => {
                 return (
                     <div className="" role="group" aria-label="button-show">

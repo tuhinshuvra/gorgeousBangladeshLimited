@@ -21,7 +21,7 @@ const Products = () => {
         <div className=" product_area">
 
             <div className="container product_bg">
-                <div className="row">
+                <div className="row ">
                     <h1 className="col-12 text-center fw-bold section-title pt-lg-5 gbl_animate_bottom">Our Products <br /> And Sevices</h1>
                     <Buttons
                         filterItem={filterItem}
