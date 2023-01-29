@@ -5,9 +5,9 @@ const Contact = () => {
     return (
         <div className="contact_bg col-lg-12 px-4 py-5" style={{ backgroundColor: '#D0DFFD' }}>
             <div className="row align-items-center g-lg-5 py-lg-5 col-lg-10 mx-auto p-sm-0">
-                <div className="col-lg-5 text-center text-lg-start">
+                <div className="col-lg-5 text-center text-lg-start gbl_animate_left">
                     <div className=" mb-lg-0 mb-4 ">
-                        <h1 className="text-3xl font-bold mb-2">Get in Touch!</h1>
+                        <h1 className="text-3xl font-bold mb-2 gbl_animate_bottom">Get in Touch!</h1>
                         <h5 className=' mb-0'><b>Gorgeous Bangladesh LTD.</b></h5>
                         <p><b>Valentine Group</b> </p>
                         <p className=' mb-0'><b>Corporate Office:</b></p>
@@ -23,7 +23,7 @@ const Contact = () => {
                         <p className=' mb-0'><b>Phone:</b> +8802 224470053, +8802 224470056</p>
                     </div>
                 </div>
-                <div className="col-lg-6 mx-auto">
+                <div className="col-lg-6 mx-auto gbl_animate_right">
                     <form
                         className='d-flex flex-column'
                         action="https://formspree.io/f/mbjelnwv"

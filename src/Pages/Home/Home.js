@@ -6,13 +6,13 @@ import Segment from '../BusinessSegment/Segment';
 import Advertise from '../Advertise/Advertise';
 import AdvertiseBelow from '../AdvertiseBelow/AdvertiseBelow';
 import Test from '../Test/Test';
+import './GBLAnimation.css'
 
 const Home = () => {
     return (
         <div className=''>
 
             {/* <Test></Test> */}
-
             <Hero></Hero>
             <Experience></Experience>
             <Segment></Segment>

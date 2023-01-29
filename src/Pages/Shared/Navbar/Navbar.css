@@ -19,3 +19,10 @@
 .copyright_text {
     color: #0E3E1E;
 }
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .center-xm {
+        justify-content: center;
+    }
+}

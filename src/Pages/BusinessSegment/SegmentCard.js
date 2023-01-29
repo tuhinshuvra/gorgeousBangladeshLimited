@@ -13,15 +13,15 @@ const SegmentCard = ({ item }) => {
                         return (
                             <div className="col-md-6 col-sm-12  py-2 border-0 rounded-5" key={Val.id}>
                                 <div className="">
-                                    <div className="row ">
+                                    <div className="row gbl_animate_left">
                                         {(Val.id === "1") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-3  exp_cus_pad">
-                                                <div className=" col-lg-6   wrapper">
+                                                <div className=" col-lg-6 wrapper">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
-                                                <div className="  col-lg-6   my-lg-auto">
+                                                <div className="col-lg-6   my-lg-auto mt-2">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
                                                     <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalOne">Explore More</Link>
@@ -47,7 +47,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3 ">
+                                    <div className="row ms-lg-3 gbl_animate_right">
                                         {(Val.id === "2") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
@@ -55,7 +55,7 @@ const SegmentCard = ({ item }) => {
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
-                                                <div className="  col-lg-6  my-auto">
+                                                <div className="  col-lg-6  my-auto mt-2">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
                                                     <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalTwo">Explore More</Link>
@@ -83,7 +83,7 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 3 and 4 */}
 
-                                    <div className="row ">
+                                    <div className="row gbl_animate_left">
                                         {(Val.id === "3") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className="  col-lg-6 ">
@@ -108,7 +108,7 @@ const SegmentCard = ({ item }) => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className=" col-lg-6  wrapper">
+                                                <div className=" col-lg-6  wrapper mt-2">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
@@ -117,7 +117,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3  ">
+                                    <div className="row ms-lg-3 gbl_animate_right ">
                                         {(Val.id === "4") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className="  col-lg-6 ">
@@ -142,7 +142,7 @@ const SegmentCard = ({ item }) => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className=" col-lg-6   wrapper">
+                                                <div className=" col-lg-6   wrapper mt-2">
                                                     <div className="image-wrapper">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
@@ -154,7 +154,7 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 5 and 6 */}
 
-                                    <div className="row ">
+                                    <div className="row gbl_animate_left">
                                         {(Val.id === "5") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
@@ -162,7 +162,7 @@ const SegmentCard = ({ item }) => {
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
-                                                <div className="  col-lg-6  my-auto">
+                                                <div className="  col-lg-6  my-auto mt-2">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
                                                     <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalFive">Explore More</Link>
@@ -188,7 +188,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3 ">
+                                    <div className="row ms-lg-3 gbl_animate_right">
                                         {(Val.id === "6") ? <>
                                             <div className=" d-lg-flex   justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
@@ -196,7 +196,7 @@ const SegmentCard = ({ item }) => {
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
                                                     </div>
                                                 </div>
-                                                <div className="  col-lg-6   my-auto">
+                                                <div className="  col-lg-6   my-auto mt-2">
                                                     <h3 className=" fw-bold">{Val.category}</h3>
                                                     <p>{Val.details.slice(0, 60)}...</p>
                                                     <Link className=' text-decoration-none fw-bold custom_btn' data-bs-toggle="modal" data-bs-target="#categeryModalSix">Explore More</Link>

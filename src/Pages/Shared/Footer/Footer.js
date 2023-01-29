@@ -15,13 +15,15 @@ const Footer = () => {
                         <h5 className=' text-center mt-2'>We build quality</h5>
                     </div>
                     <div className="col-6 col-md-2 mb-3">
-                        <h5 className=' fw-bold'>Services</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 nav_btn fw-bold">Home</Link></li>
-                            <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 nav_btn fw-bold">Product</Link></li>
-                            <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 nav_btn fw-bold">Sevices</Link></li>
-                            <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 nav_btn fw-bold">About</Link></li>
-                        </ul>
+                        <div className=''>
+                            <h5 className='fw-bold '>Services</h5>
+                            <ul className="nav flex-column ">
+                                <li className="nav-item mb-2"><Link to="/" className="nav-link p-0 nav_btn fw-bold">Home</Link></li>
+                                <li className="nav-item mb-2"><Link to="/products" className="nav-link p-0 nav_btn fw-bold">Product</Link></li>
+                                <li className="nav-item mb-2"><Link to="/services" className="nav-link p-0 nav_btn fw-bold">Sevices</Link></li>
+                                <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0 nav_btn fw-bold">About</Link></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
@@ -67,8 +69,8 @@ const Footer = () => {
                 <div className=" ">
                     <p className=' text-center mb-0 copyright_text'> <small>Copyright @ 2023, All right reserved by Gorgeous Bangladesh Ltd</small></p>
                 </div>
-            </footer>
-        </div>
+            </footer >
+        </div >
     );
 };
 

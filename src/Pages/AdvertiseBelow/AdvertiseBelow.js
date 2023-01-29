@@ -17,7 +17,7 @@ const Advertise = () => {
 
     return (
         <div className='add_slider my-0 py-0 '>
-            <h1 className="col-12 text-center fw-bold section-title">Our International Partners</h1>
+            <h1 className="col-12 text-center fw-bold section-title gbl_animate_bottom">Our International Partners</h1>
             <div className=' col-lg-10 mx-auto '>
                 <div className='row'>
 
