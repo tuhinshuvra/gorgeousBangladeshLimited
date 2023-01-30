@@ -141,107 +141,107 @@ const ProductList = [
   },
 
   {
-    id: "17",
+    id: "24",
     title: "Solar Panels",
     category: "Power Solution",
     img: "../../assets/images/products/Solar-Panels.png"
   },
   {
-    id: "18",
+    id: "25",
     title: "Sub Station",
     category: "Power Solution",
     img: "../../assets/images/products/Sub_station.png"
   },
   {
-    id: "19",
+    id: "26",
     title: "Generator",
     category: "Power Solution",
     img: "../../assets/images/products/Generator.png"
   },
   {
-    id: "20",
+    id: "27",
     title: "Engine Oil",
     category: "Power Solution",
     img: "../../assets/images/products/Engine_oil.png"
   },
 
   {
-    id: "30",
+    id: "28",
     title: "Security Service",
     category: "Logistics & Security",
     img: "../../assets/images/products/Security-Service.png"
   },
   {
-    id: "31",
+    id: "29",
     title: "IT Prodact",
     category: "Logistics & Security",
     img: "../../assets/images/products/IT-prodact.png"
   },
   {
-    id: "32",
+    id: "30",
     title: "Fire Fighting",
     category: "Logistics & Security",
     img: "../../assets/images/products/firetrack.png"
   },
 
   {
-    id: "33",
+    id: "31",
     title: "Tractor",
     category: "Transport",
     img: "../../assets/images/products/agro_machinaries.png"
   },
 
   {
-    id: "35",
+    id: "32",
     title: "Electric Scooter",
     category: "Transport",
     img: "../../assets/images/products/electric_scooter.png"
   },
 
   {
-    id: "36",
+    id: "33",
     title: "Electric Bus",
     category: "Transport",
     img: "../../assets/images/products/e_bus.png"
   },
   {
-    id: "37",
+    id: "34",
     title: "Electric Bus",
     category: "Transport",
     img: "../../assets/images/products/Commercial_Transport1.png"
   },
   {
-    id: "38",
+    id: "35",
     title: "Electric Bus",
     category: "Transport",
     img: "../../assets/images/products/e_bus.png"
   },
   {
-    id: "39",
+    id: "36",
     title: "Electric Bus",
     category: "Transport",
     img: "../../assets/images/products/e_bus2.png"
   },
   {
-    id: "40",
+    id: "37",
     title: "Electric Scooter",
     category: "Transport",
     img: "../../assets/images/products/ebyke.png"
   },
   {
-    id: "41",
+    id: "38",
     title: "Electric Bike",
     category: "Transport",
     img: "../../assets/images/products/ebyke2.png"
   },
   {
-    id: "42",
+    id: "39",
     title: "Electric Bike",
     category: "Transport",
     img: "../../assets/images/products/ebyke3.png"
   },
   {
-    id: "43",
+    id: "40",
     title: "Lift",
     category: "Machineries",
     img: "../../assets/images/products/lift.png"

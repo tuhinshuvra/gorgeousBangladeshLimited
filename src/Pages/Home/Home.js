@@ -10,8 +10,6 @@ import './GBLAnimation.css'
 const Home = () => {
     return (
         <div className=''>
-
-            {/* <Test></Test> */}
             <Hero></Hero>
             <Experience></Experience>
             <Segment></Segment>

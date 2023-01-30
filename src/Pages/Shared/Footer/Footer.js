@@ -8,12 +8,14 @@ const Footer = () => {
         <div className="container footer_bg">
             <footer className="pt-4">
                 <div className="row">
+
                     <div className="col-12 col-md-4 mb-3 d-flex  flex-column justify-content-center align-items-center">
                         <div className=' d-flex justify-content-center'>
                             <Link to="/"> <img className='' src={FooterLogo} alt="" /></Link>
                         </div>
-                        <h5 className=' text-center mt-2'>We build quality</h5>
+                        <h5 className='text-center mt-2'>We build quality</h5>
                     </div>
+
                     <div className="col-6 col-md-2 mb-3">
                         <div className=''>
                             <h5 className='fw-bold text-center '>Services</h5>
