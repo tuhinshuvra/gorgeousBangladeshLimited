@@ -3,7 +3,6 @@ import MissionImage from '../../assets/images/mission_vission/misssion.jpg';
 import VissionImage from '../../assets/images/mission_vission/vission.jpg';
 import '../Hero/Hero.css';
 
-
 const About = () => {
     return (
         <div>
@@ -21,7 +20,7 @@ const About = () => {
                                     sustainable and visionary development activities both at national and international levels. <br /> <br />
                                     In this era of open market economy and digitalization, Gorgeous Bangladesh Limited, by its timely initiatives, shall Endeavour to lead Bangladesh
                                     towards a respectable social standing and reputation. Elimination of poverty and unemployment-a coveted norm for all other third world
-                                    countries is one of the topmost priorities of N ALAM GROUP-one of the most committed business enterprises of Bangladesh.
+                                    countries is one of the topmost priorities of Gorgeous Bangladesh Limited-one of the most committed business enterprises of Bangladesh.
                                 </p>
                             </div>
                         </div>

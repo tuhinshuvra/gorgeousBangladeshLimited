@@ -7,7 +7,7 @@ const SegmentList = [
     },
     {
         id: "2",
-        category: "Cement Industry Materials",
+        category: "Cement Materials",
         details: "Gorgeous Bangladesh impotrs and supplies various high-quality cement materials including clinker, limestone, gypsum, and fly ash. These materials are commonly used in cement and construction industry.",
         img: "../../assets/images/categories/Cement_Industry_Materials.png"
     },
@@ -19,7 +19,7 @@ const SegmentList = [
     },
     {
         id: "4",
-        category: "Logistics and Security",
+        category: "Logistics & Security",
         details: "Gorgeous Bangladesh import and supply a wide range of fire fighting equipment such as fire extinguishers, hose reels, fire alarms, and sprinkler systems. Additionally, we provide security services such as CCTV systems, burglar alarms, access control systems, and security personnel. ",
         img: "../../assets/images/categories/Logistics_and_Security.png"
     },

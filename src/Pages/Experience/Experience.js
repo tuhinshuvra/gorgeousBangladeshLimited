@@ -13,19 +13,16 @@ import './Experience.css';
 const Experience = () => {
     return (
         <div className='product_bg'>
-            {/* <div className="col-lg-12 px-4 py-5"> */}
             <div className=" col-lg-10 mx-auto">
 
-                <div className="row  d-flex g-5 py-5">
-                    <div className="col-lg-6 gbl_animate_left" loading="lazy">
+                <div className="row  d-flex py-5">
+                    <div className="col-lg-6 gbl_animate_left mb-3" loading="lazy">
                         <div className=' mx-lg-0  mx-5 '>
                             <h1 className="display-5 fw-bold lh-1 mb-3 gbl_animate_bottom">12+ Years <br /> of Experience</h1>
                             <p className="">
                                 <span>Our business enterprise aims at the overall development of Bangladesh by undertaking entrepreneurship in multiple nation-building ventures.</span> <br /><br />
-
                                 <span className=''> Our services sections are  Agro and Foods, Cement Industry Materials, Commercial Transport, Logistics and Security, Power Solutions, RMG Sectors</span>
 
-                                {/* <span>Our mission is among others, to make employment opportunities, eliminate poverty, contribute to enhancing infrastructures at the national level, and finally lead Bangladesh toward development and prosperity.</span> */}
                             </p>
                             <div className="">
                                 <Link className='gbl_btn btn btn-success rounded-pill fw-bold text-decoration-none text-white' to="/about">
@@ -76,9 +73,6 @@ const Experience = () => {
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div >
