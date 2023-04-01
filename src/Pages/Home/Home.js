@@ -3,8 +3,8 @@ import Products from '../Products/Products';
 import Experience from '../Experience/Experience';
 import Hero from '../Hero/Hero';
 import Segment from '../BusinessSegment/Segment';
-import Advertise from '../Advertise/Advertise';
-import AdvertiseBelow from '../AdvertiseBelow/AdvertiseBelow';
+import Clients from '../Clients/Clients';
+import InternationalPartners from '../InternationalPartners/InternationalPartners';
 import './GBLAnimation.css'
 
 const Home = () => {
@@ -14,8 +14,8 @@ const Home = () => {
             <Experience></Experience>
             <Segment></Segment>
             <Products></Products>
-            <Advertise></Advertise>
-            <AdvertiseBelow></AdvertiseBelow>
+            <Clients></Clients>
+            <InternationalPartners></InternationalPartners>
         </div>
     );
 };

@@ -1,0 +1,65 @@
+/* .carosolImg {
+    width: 155px !important;
+}
+
+.popular-location {
+    margin: 100px 0;
+} 
+*/
+
+
+.preIcon {
+    margin: 0 0 0 -215px !important;
+}
+
+.nextIcon {
+    margin: 0 -215px 0 0 !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* .carosolImg {
+        width: 145px !important;
+    } */
+
+
+    .preIcon {
+        margin: 0 0 0 -185px !important;
+    }
+
+    .nextIcon {
+        margin: 0 -185px 0 0 !important;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+
+    /* .carosolImg {
+        width: 127px !important;
+    } */
+    .preIcon {
+        margin: 0 0 0 -140px !important;
+    }
+
+    .nextIcon {
+        margin: 0 -140px 0 0 !important;
+    }
+
+}
+
+@media (min-width: 319.98px) and (max-width: 425px) {
+
+    /* .carosolImg {
+        width: 110px !important;
+    } */
+
+    .preIcon {
+        margin: 0 0 0 -80px !important;
+    }
+
+    .nextIcon {
+        margin: 0 -80px 0 0 !important;
+    }
+}
