@@ -8,12 +8,12 @@ const About = () => {
         <div>
             <div className='about_bg  d-flex justify-content-center align-items-center'>
                 <div className=" col-10">
-                    <div className=" mx-auto my-5 ">
-                        <div className='row flex-lg-row-reverse p-lg-0 ps-md-5'>
-                            <div className=' col-lg-6   '>
+                    <div className=" mx-auto my-5" >
+                        <div className='row flex-lg-row-reverse p-lg-0 ps-md-5' >
+                            <div className=' col-lg-6' data-aos="fade-up-left">
                                 <img className=' about_img rounded-5 shadow shadow-lg' src={MissionImage} alt="" />
                             </div>
-                            <div className=' col-lg-6  d-flex flex-column justify-content-center align-content-center'>
+                            <div className=' col-lg-6  d-flex flex-column justify-content-center align-content-center' data-aos="fade-up-right">
                                 <h2 className=' fw-bold text-success mt-4 '>Our Vision</h2>
                                 <p className=' text'>
                                     Our vision is to cause Bangladesh pace with the developed countries of the world by participating in the far-flung,
@@ -27,10 +27,10 @@ const About = () => {
 
                         <div className=' mt-5'>
                             <div className='row'>
-                                <div className='col-lg-6 mx-auto '>
+                                <div className='col-lg-6 mx-auto' data-aos="fade-up-right">
                                     <img className=' about_img rounded-5 shadow shadow-lg mb-3' src={VissionImage} alt="" />
                                 </div>
-                                <div className='col-lg-6 mt-sm-3 mt-lg-0  d-flex flex-column justify-content-center align-content-center'>
+                                <div className='col-lg-6 mt-sm-3 mt-lg-0  d-flex flex-column justify-content-center align-content-center' data-aos="fade-up-left">
                                     <h2 className=' fw-bold text-success '>Our Mission</h2>
                                     <p>
                                         Our business enterprise aims at overall development of Bangladesh by undertaking entrepreneurship in multiple nation building ventures.
