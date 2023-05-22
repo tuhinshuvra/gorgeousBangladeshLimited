@@ -4,7 +4,7 @@ import InternationalPartnersGridCarousol from './InternationalPartnersGridCarous
 const InternationalPartners = () => {
     return (
         <div className=' my-5'>
-            <h1 className="col-12 text-center fw-bold section-title gbl_animate_bottom">Our International Partners</h1>
+            <h1 className="col-12 text-center fw-bold section-title " data-aos="fade-up">Our International Partners</h1>
             <div className=' col-10 mx-auto '>
                 <div className='row'>
                     <InternationalPartnersGridCarousol></InternationalPartnersGridCarousol>

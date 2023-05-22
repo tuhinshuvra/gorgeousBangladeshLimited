@@ -16,9 +16,9 @@ const Experience = () => {
             <div className=" col-lg-10 mx-auto">
 
                 <div className="row  d-flex py-5">
-                    <div className="col-lg-6 gbl_animate_left mb-3" loading="lazy">
+                    <div className="col-lg-6  mb-3" data-aos="fade-up-right">
                         <div className=' mx-lg-0  mx-5 '>
-                            <h1 className="display-5 fw-bold lh-1 mb-3 gbl_animate_bottom">12+ Years <br /> of Experience</h1>
+                            <h1 className="display-5 fw-bold lh-1 mb-3 ">12+ Years <br /> of Experience</h1>
                             <p className="">
                                 <span>Our business enterprise aims at the overall development of Bangladesh by undertaking entrepreneurship in multiple nation-building ventures.</span> <br /><br />
                                 <span className=''> Our services sections are  Agro and Foods, Cement Industry Materials, Commercial Transport, Logistics and Security, Power Solutions, RMG Sectors</span>
@@ -32,7 +32,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 gbl_animate_right" loading="lazy">
+                    <div className="col-lg-6 " data-aos="fade-up-left">
                         <div className=' mx-lg-0  mx-5 '>
                             <div id="gblExperienceCarousol" className="carousel carousel-dark slide " data-bs-ride="carousel">
                                 <div className="carousel-inner">

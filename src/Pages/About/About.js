@@ -10,11 +10,11 @@ const About = () => {
                 <div className=" col-10">
                     <div className=" mx-auto my-5 ">
                         <div className='row flex-lg-row-reverse p-lg-0 ps-md-5'>
-                            <div className=' col-lg-6  gbl_animate_right '>
+                            <div className=' col-lg-6   '>
                                 <img className=' about_img rounded-5 shadow shadow-lg' src={MissionImage} alt="" />
                             </div>
-                            <div className=' col-lg-6 gbl_animate_left d-flex flex-column justify-content-center align-content-center'>
-                                <h2 className=' fw-bold text-success mt-4 gbl_animate_bottom'>Our Vision</h2>
+                            <div className=' col-lg-6  d-flex flex-column justify-content-center align-content-center'>
+                                <h2 className=' fw-bold text-success mt-4 '>Our Vision</h2>
                                 <p className=' text'>
                                     Our vision is to cause Bangladesh pace with the developed countries of the world by participating in the far-flung,
                                     sustainable and visionary development activities both at national and international levels. <br /> <br />
@@ -27,11 +27,11 @@ const About = () => {
 
                         <div className=' mt-5'>
                             <div className='row'>
-                                <div className='col-lg-6 mx-auto gbl_animate_left'>
+                                <div className='col-lg-6 mx-auto '>
                                     <img className=' about_img rounded-5 shadow shadow-lg mb-3' src={VissionImage} alt="" />
                                 </div>
-                                <div className='col-lg-6 mt-sm-3 mt-lg-0 gbl_animate_right d-flex flex-column justify-content-center align-content-center'>
-                                    <h2 className=' fw-bold text-success gbl_animate_bottom'>Our Mission</h2>
+                                <div className='col-lg-6 mt-sm-3 mt-lg-0  d-flex flex-column justify-content-center align-content-center'>
+                                    <h2 className=' fw-bold text-success '>Our Mission</h2>
                                     <p>
                                         Our business enterprise aims at overall development of Bangladesh by undertaking entrepreneurship in multiple nation building ventures.
                                         Gorgeous Bangladesh Limited has been working relentlessly in the fields of: Cement & Clinker, Construction, Marketing, Chemical & Fertilizer, International Trade, Electrical & Electronics, Fashion & Design, Mining, Hotel & Resorts, Tours & Travels, Tv & News Paper,

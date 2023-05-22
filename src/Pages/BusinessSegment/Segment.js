@@ -13,7 +13,7 @@ const Segment = () => {
         <div className="container segment_bg">
             <div className=" col-lg-10 mx-auto">
                 <div className="row">
-                    <h1 className="col-12 text-center fw-bold section-title pt-lg-5 gbl_animate_bottom">Awesome<br /> Business Segment</h1>
+                    <h1 className="col-12 text-center fw-bold section-title pt-lg-5" data-aos="fade-up">Awesome<br /> Business Segment</h1>
                     <SegmentCard item={item} />
 
                     <div className="d-flex justify-content-center mb-3">

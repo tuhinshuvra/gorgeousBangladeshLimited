@@ -13,7 +13,7 @@ const SegmentCard = ({ item }) => {
                         return (
                             <div className="col-md-6 col-sm-12  py-2 border-0 rounded-5" key={Val.id}>
                                 <div className="">
-                                    <div className="row gbl_animate_left">
+                                    <div className="row " data-aos="fade-up-right">
                                         {(Val.id === "1") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-3  exp_cus_pad">
                                                 <div className=" col-lg-6 wrapper">
@@ -47,7 +47,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3 gbl_animate_right">
+                                    <div className="row ms-lg-3" data-aos="fade-up-left">
                                         {(Val.id === "2") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
@@ -83,7 +83,7 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 3 and 4 */}
 
-                                    <div className="row gbl_animate_left">
+                                    <div className="row" data-aos="fade-up-right">
                                         {(Val.id === "3") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className="  col-lg-6 ">
@@ -117,7 +117,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3 gbl_animate_right ">
+                                    <div className="row ms-lg-3" data-aos="fade-up-left">
                                         {(Val.id === "4") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className="  col-lg-6 ">
@@ -154,7 +154,7 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 5 and 6 */}
 
-                                    <div className="row gbl_animate_left">
+                                    <div className="row" data-aos="fade-up-right">
                                         {(Val.id === "5") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
@@ -188,7 +188,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3 gbl_animate_right">
+                                    <div className="row ms-lg-3" data-aos="fade-up-left">
                                         {(Val.id === "6") ? <>
                                             <div className=" d-lg-flex   justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
@@ -221,8 +221,6 @@ const SegmentCard = ({ item }) => {
                                             </div>
                                         </> : <></>}
                                     </div>
-
-
                                 </div>
                             </div>
                         );

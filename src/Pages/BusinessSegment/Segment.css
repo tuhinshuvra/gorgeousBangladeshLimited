@@ -20,7 +20,7 @@
 
 /* css animation text comes from top start */
 /* 
-.gbl_animate_bottom {
+. {
     position: relative;
     animation: animatebottom 1.5s
 }
@@ -42,7 +42,7 @@
 
 /* start css animation text comes from left */
 
-/* .gbl_animate_left {
+/* . {
     position: relative;
     animation: animateleft 2s
 }
@@ -62,7 +62,7 @@
 /* end css animation text comes from left */
 
 /* start css animation text comes from right */
-/* .gbl_animate_right {
+/* . {
     position: relative;
     animation: animateright 2s
 }

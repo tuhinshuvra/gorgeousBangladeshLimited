@@ -7,13 +7,13 @@ const ProductDisplay = ({ item }) => {
         <div className=" col-lg-10 mx-auto">
             <div className="row">
                 <div className="product my-3">
-                    {item.map((Val) => {
+                    {item.map((product, index) => {
                         return (
-                            <div className="" key={Val.id}>
+                            <div className="" key={index} >
                                 <div className="wrapper" >
-                                    <div className="bg-image image-wrapper">
-                                        <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " />
-                                        <p className="title">{Val.title}</p>
+                                    <div className="bg-image image-wrapper" data-aos="flip-left">
+                                        <img src={product.img} alt={product.title} className=" img-fluid rounded-5 " />
+                                        <p className="title">{product.title}</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Products from '../Products/Products';
 import Experience from '../Experience/Experience';
 import Hero from '../Hero/Hero';
 import Segment from '../BusinessSegment/Segment';
 import Clients from '../Clients/Clients';
 import InternationalPartners from '../InternationalPartners/InternationalPartners';
-import './GBLAnimation.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init({
+            // offset: 200,
+            duration: 3000,
+            delay: 200,
+            // mirror: true,
+            // once: false
+        });
+    }, [])
+
     return (
         <div className=''>
             <Hero></Hero>
