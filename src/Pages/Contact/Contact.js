@@ -1,7 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import emailjs from 'emailjs-com';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_mtqic24', 'template_wfufswf', e.target, '6R5yj-ZgBncNZfPpC')
+            .then((result) => {
+                console.log(result.text);
+                toast.success('Your email send successfully.')
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        e.target.reset();
+    };
+
     return (
         <div className="contact_bg col-lg-12 px-4 py-5" style={{ backgroundColor: '#E5F7E5' }}>
             <div className="row align-items-center g-lg-5 py-lg-5 col-lg-10 mx-auto p-sm-0">
@@ -25,45 +44,19 @@ const Contact = () => {
                 </div>
 
                 <div className="col-lg-6   mx-auto my-auto" data-aos="fade-up-left">
-                    <form
-                        className='d-flex flex-column'
-                        action="https://formspree.io/f/mbjelnwv"
-                        method="POST">
+                    <form className='d-flex flex-column'
+                        action="https://formspree.io/f/mbjelnwv" method="POST"
+                        onSubmit={sendEmail}>
 
-                        <input type="text"
+                        <input type="text" className=' mb-2 form-control' name="name" autoComplete="off" placeholder='Name' required />
 
-                            className=' mb-2 form-control'
-                            name="username"
-                            autoComplete="off"
-                            placeholder='Name'
-                            required
-                        />
+                        <input type="text" className=' mb-2 form-control' name="phone" autoComplete="off" placeholder='Phone No' required />
 
-                        <input type="text"
-                            className=' mb-2 form-control'
-                            name="phone"
-                            autoComplete="off"
-                            placeholder='Phone No'
-                            required
-                        />
+                        <input type="email" className=' mb-2 form-control' name="user_email" autoComplete="off" placeholder='Email Address' />
 
-                        <input type="email"
-                            className=' mb-2 form-control'
-                            name="email"
-                            autoComplete="off"
-                            placeholder='Email Address'
+                        <textarea className='form-control mb-3' name='message' cols="30" rows="3" autoComplete="off" placeholder='Message' required />
 
-                        />
-                        <textarea
-                            className='form-control mb-3'
-                            name='message'
-                            cols="30"
-                            rows="3"
-                            autoComplete="off"
-                            placeholder='Message'
-                            required
-                        ></textarea>
-                        <input className=' btn btn-success' type="submit" value="Send Message" />
+                        <button className=' btn btn-success' type="submit" value="Send Message">Send Message</button>
                     </form>
                 </div>
             </div>
