@@ -13,11 +13,11 @@ const SegmentCard = ({ item }) => {
                         return (
                             <div className="col-md-6 col-sm-12  py-2 border-0 rounded-5" key={Val.id}>
                                 <div className="">
-                                    <div className="row " data-aos="fade-up-right">
+                                    <div className="row">
                                         {(Val.id === "1") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-3  exp_cus_pad">
                                                 <div className=" col-lg-6 wrapper">
-                                                    <div className="image-wrapper">
+                                                    <div className="image-wrapper" data-aos="zoom-in">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5" />
                                                     </div>
                                                 </div>
@@ -47,11 +47,11 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3" data-aos="fade-up-left">
+                                    <div className="row ms-lg-3">
                                         {(Val.id === "2") ? <>
-                                            <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
+                                            <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad" >
                                                 <div className=" col-lg-6   wrapper">
-                                                    <div className="image-wrapper">
+                                                    <div className="image-wrapper" data-aos="zoom-in">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " loading="eager" />
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 3 and 4 */}
 
-                                    <div className="row" data-aos="fade-up-right">
+                                    <div className="row">
                                         {(Val.id === "3") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className="  col-lg-6 ">
@@ -109,7 +109,7 @@ const SegmentCard = ({ item }) => {
                                                     </div>
                                                 </div>
                                                 <div className=" col-lg-6  wrapper mt-2">
-                                                    <div className="image-wrapper">
+                                                    <div className="image-wrapper" data-aos="zoom-in">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " loading="eager" />
                                                     </div>
                                                 </div>
@@ -117,7 +117,7 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3" data-aos="fade-up-left">
+                                    <div className="row ms-lg-3">
                                         {(Val.id === "4") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className="  col-lg-6 ">
@@ -143,7 +143,7 @@ const SegmentCard = ({ item }) => {
                                                     </div>
                                                 </div>
                                                 <div className=" col-lg-6   wrapper mt-2">
-                                                    <div className="image-wrapper">
+                                                    <div className="image-wrapper" data-aos="zoom-in">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " loading="eager" />
                                                     </div>
                                                 </div>
@@ -154,11 +154,11 @@ const SegmentCard = ({ item }) => {
 
                                     {/* for card 5 and 6 */}
 
-                                    <div className="row" data-aos="fade-up-right">
+                                    <div className="row">
                                         {(Val.id === "5") ? <>
                                             <div className=" d-lg-flex justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
-                                                    <div className="image-wrapper">
+                                                    <div className="image-wrapper" data-aos="zoom-in">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " loading="eager" />
                                                     </div>
                                                 </div>
@@ -188,11 +188,11 @@ const SegmentCard = ({ item }) => {
                                         </> : <></>}
                                     </div>
 
-                                    <div className="row ms-lg-3" data-aos="fade-up-left">
+                                    <div className="row ms-lg-3">
                                         {(Val.id === "6") ? <>
                                             <div className=" d-lg-flex   justify-content-center gap-lg-3 exp_cus_pad">
                                                 <div className=" col-lg-6   wrapper">
-                                                    <div className="image-wrapper">
+                                                    <div className="image-wrapper" data-aos="zoom-in">
                                                         <img src={Val.img} alt={Val.title} className=" img-fluid rounded-5 " loading="eager" />
                                                     </div>
                                                 </div>
@@ -221,6 +221,8 @@ const SegmentCard = ({ item }) => {
                                             </div>
                                         </> : <></>}
                                     </div>
+
+
                                 </div>
                             </div>
                         );
